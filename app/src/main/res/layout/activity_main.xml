@@ -11,10 +11,36 @@
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:minHeight="?attr/actionBarSize"
-        android:background="#81F7F3"/>
+        android:background="#81F7F3">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:id="@+id/notofications"
+            android:textSize="12sp"
+            android:background="@null"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:textColor="#FFF"
+            android:text="notifications"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:id="@+id/profile"
+            android:textSize="12sp"
+            android:background="@null"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:textColor="#FFF"
+            android:text="profile"/>
+
+    </android.support.v7.widget.Toolbar>
 
     <TextView
-        android:text="@string/hello_world"
+        android:text="Explaine   \n    Medicine"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/searchView"
