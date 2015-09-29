@@ -67,6 +67,7 @@
     </android.support.v7.widget.Toolbar>
 
     <TextView
+        android:id="@+id/central_text"
         android:text="@string/central_textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
