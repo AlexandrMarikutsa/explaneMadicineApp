@@ -4,8 +4,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="#81F7F3"
+    android:id="@+id/container"
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
-
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
@@ -102,6 +102,7 @@
         android:background="@drawable/lower_buttons"
         android:clickable="true">
         <ImageView
+            android:id="@+id/browse"
             android:layout_width="@dimen/browse_imageView_layout_width"
             android:layout_height="@dimen/browse_imageView_layout_height"
             android:layout_gravity="center"
