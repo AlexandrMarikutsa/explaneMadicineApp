@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android" >
 
-    <stroke android:color="#020405" android:width="0.5dip"/>
+    <stroke android:color="@color/toolbar_textView_notifications_border" android:width="@dimen/toolbar_textView_notifications_border_width"/>
 
-    <solid android:color="#EEFA11"></solid>
+    <solid android:color="@color/toolbar_textView_notifications_background"></solid>
 
     <corners
-        android:bottomLeftRadius="30dp"
-        android:bottomRightRadius="30dp"
-        android:topLeftRadius="30dp"
-        android:topRightRadius="30dp" />
+        android:bottomLeftRadius="@dimen/toolbar_textView_notifications_bottomLeftRadius"
+        android:bottomRightRadius="@dimen/toolbar_textView_notifications_bottomRightRadius"
+        android:topLeftRadius="@dimen/toolbar_textView_notifications_topLeftRadius"
+        android:topRightRadius="@dimen/toolbar_textView_notifications_topRightRadius" />
 
     <size
-        android:height="25dp"
-        android:width="25dp" />
+        android:height="@dimen/toolbar_textView_notifications_height"
+        android:width="@dimen/toolbar_textView_notifications_width" />
 
 </shape>

@@ -9,23 +9,23 @@
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="45dp"
+        android:layout_height="@dimen/toolbar_layout_height"
         android:minHeight="?attr/actionBarSize"
-        android:background="#81F7F3">
+        android:background="@color/toolbar_background">
 
         <ImageButton
             android:id="@+id/profile"
-            android:layout_width="35dp"
-            android:layout_height="35dp"
-            android:layout_marginBottom="0dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
-            android:layout_marginTop="3dp"
+            android:layout_width="@dimen/toolbar_imageButton_profile_layout_width"
+            android:layout_height="@dimen/toolbar_imageButton_profile_layout_width"
+            android:layout_marginBottom="@dimen/toolbar_imageButton_profile_layout_marginBottom"
+            android:layout_marginLeft="@dimen/toolbar_imageButton_profile_layout_marginLeft"
+            android:layout_marginRight="@dimen/toolbar_imageButton_profile_layout_marginRight"
+            android:layout_marginTop="@dimen/toolbar_imageButton_profile_layout_marginTop"
             android:layout_weight="1"
             android:adjustViewBounds="true"
             android:layout_gravity="left"
             android:layout_alignParentLeft="true"
-            android:padding="0dp"
+            android:padding="@dimen/toolbar_imageButton_profile_padding"
             android:src="@drawable/profile"
             android:scaleType="centerCrop" />
 
@@ -35,17 +35,17 @@
             <ImageButton
                 android:id="@+id/notifications"
                 android:layout_gravity="right"
-                android:layout_width="35dp"
-                android:layout_height="35dp"
-                android:layout_marginBottom="0dp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
-                android:layout_marginTop="3dp"
+                android:layout_width="@dimen/toolbar_imageButton_notifications_layout_width"
+                android:layout_height="@dimen/toolbar_imageButton_notifications_layout_height"
+                android:layout_marginBottom="@dimen/toolbar_imageButton_notifications_marginBottom"
+                android:layout_marginLeft="@dimen/toolbar_imageButton_notifications_marginLeft"
+                android:layout_marginRight="@dimen/toolbar_imageButton_notifications_marginRight"
+                android:layout_marginTop="@dimen/toolbar_imageButton_notifications_marginTop"
                 android:layout_weight="1"
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
                 android:adjustViewBounds="true"
-                android:padding="0dp"
+                android:padding="@dimen/toolbar_imageButton_notifications_padding"
                 android:src="@drawable/notifications"
                 android:scaleType="fitCenter" />
             <TextView
@@ -67,22 +67,22 @@
     </android.support.v7.widget.Toolbar>
 
     <TextView
-        android:text="Explaine   \n    Medicine"
+        android:text="@string/central_textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/searchView"
         android:gravity="center"
-        android:padding="15dp"
-        android:textColor="#F8F8FF"
-        android:textSize="40dp" />
+        android:padding="@dimen/central_textView_padding"
+        android:textColor="@color/central_text"
+        android:textSize="@dimen/central_textView_text_size" />
 
     <SearchView
         android:id="@+id/searchView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:iconifiedByDefault="false"
-        android:background="#F8F8FF"
-        android:queryHint="Search a Medical Condition"
+        android:background="@color/searchview_background"
+        android:queryHint="@string/searchview_queryHint"
         android:layout_centerInParent="true">
     </SearchView>
 
@@ -93,7 +93,7 @@
         android:layout_below="@+id/searchView"
         android:gravity="center"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="25dp">
+        android:layout_marginTop="@dimen/lower_linearLayout_group_layout_marginTop">
         <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -102,15 +102,15 @@
         android:background="@drawable/lower_buttons"
         android:clickable="true">
         <ImageView
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="@dimen/browse_imageView_layout_width"
+            android:layout_height="@dimen/browse_imageView_layout_height"
             android:layout_gravity="center"
             android:src="@drawable/browse"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Browse"/>
+            android:text="@string/browse_name"/>
         </LinearLayout>
         <RelativeLayout
             android:layout_width="wrap_content"
@@ -119,21 +119,21 @@
             android:orientation="vertical"
             android:background="@drawable/lower_buttons"
             android:clickable="true"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp">
+            android:layout_marginLeft="@dimen/lower_buttons_layout_marginLeft"
+            android:layout_marginRight="@dimen/lower_buttons_layout_marginRight">
             <ImageView
                 android:id="@+id/favorites_image"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="@dimen/favorites_imageView_layout_width"
+                android:layout_height="@dimen/favorites_imageView_layout_height"
                 android:layout_gravity="center"
                 android:src="@drawable/favorites"
                 android:layout_centerHorizontal="true" />
             <TextView
-                android:id="@+id/sss"
+                android:id="@+id/notifications_count"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Favorites"
+                android:text="@string/favorites_name"
                 android:layout_below="@+id/favorites_image" />
             <TextView
                 android:id="@+id/num_of_notifications"
@@ -142,7 +142,7 @@
                 android:layout_alignParentTop="false"
                 android:layout_alignTop="@+id/favorites_image"
                 android:background="@drawable/texview_design"
-                android:layout_alignRight="@+id/sss"
+                android:layout_alignRight="@+id/notifications_count"
                 android:layout_alignEnd="@+id/favorites_image" />
         </RelativeLayout>
        <LinearLayout
@@ -153,15 +153,15 @@
             android:background="@drawable/lower_buttons"
             android:clickable="true">
             <ImageView
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="@dimen/recent_imageView_layout_width"
+                android:layout_height="@dimen/recent_imageView_layout_heidth"
                 android:layout_gravity="center"
                 android:src="@drawable/recent"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Recent"/>
+                android:text="@string/recent_name"/>
         </LinearLayout>
     </LinearLayout>
 

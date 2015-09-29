@@ -2,4 +2,45 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="toolbar_layout_height">45dp</dimen>
+    <dimen name="toolbar_imageButton_profile_layout_width">35dp</dimen>
+    <dimen name="toolbar_imageButton_profile_layout_height">35dp</dimen>
+    <dimen name="toolbar_imageButton_profile_layout_marginBottom">0dp</dimen>
+    <dimen name="toolbar_imageButton_profile_layout_marginLeft">5dp</dimen>
+    <dimen name="toolbar_imageButton_profile_layout_marginRight">5dp</dimen>
+    <dimen name="toolbar_imageButton_profile_layout_marginTop">3dp</dimen>
+    <dimen name="toolbar_imageButton_profile_padding">0dp</dimen>
+
+    <dimen name="toolbar_imageButton_notifications_layout_width">35dp</dimen>
+    <dimen name="toolbar_imageButton_notifications_layout_height">35dp</dimen>
+    <dimen name="toolbar_imageButton_notifications_marginBottom">0dp</dimen>
+    <dimen name="toolbar_imageButton_notifications_marginLeft">5dp</dimen>
+    <dimen name="toolbar_imageButton_notifications_marginRight">5dp</dimen>
+    <dimen name="toolbar_imageButton_notifications_marginTop">3dp</dimen>
+    <dimen name="toolbar_imageButton_notifications_padding">0dp</dimen>
+    <dimen name="toolbar_textView_notifications_bottomLeftRadius">30dp</dimen>
+    <dimen name="toolbar_textView_notifications_border_width">0.5dip</dimen>
+    <dimen name="toolbar_textView_notifications_bottomRightRadius">30dp</dimen>
+    <dimen name="toolbar_textView_notifications_topLeftRadius">30dp</dimen>
+    <dimen name="toolbar_textView_notifications_topRightRadius">30dp</dimen>
+    <dimen name="toolbar_textView_notifications_height">25dp</dimen>
+    <dimen name="toolbar_textView_notifications_width">25dp</dimen>
+
+    <dimen name="central_textView_padding">15dp</dimen>
+    <dimen name="central_textView_text_size">40dp</dimen>
+
+    <dimen name="lower_linearLayout_group_layout_marginTop">25dp</dimen>
+    <dimen name="lower_buttons_layout_marginLeft">15dp</dimen>
+    <dimen name="lower_buttons_layout_marginRight">15dp</dimen>
+
+    <dimen name="browse_imageView_layout_width">40dp</dimen>
+    <dimen name="browse_imageView_layout_height">40dp</dimen>
+
+    <dimen name="favorites_imageView_layout_width">40dp</dimen>
+    <dimen name="favorites_imageView_layout_height">40dp</dimen>
+
+    <dimen name="recent_imageView_layout_width">40dp</dimen>
+    <dimen name="recent_imageView_layout_heidth">40dp</dimen>
+
+
 </resources>

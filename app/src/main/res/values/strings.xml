@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">explaneMadicineApp</string>
-
     <string name="action_settings">Settings</string>
+    <string name="central_textView">Explaine   \n    Medicine</string>
+    <string name="searchview_queryHint">Search a Medical Condition</string>
+    <string name="browse_name">Browse</string>
+    <string name="favorites_name">Favorites</string>
+    <string name="recent_name">Recent</string>
+
 </resources>

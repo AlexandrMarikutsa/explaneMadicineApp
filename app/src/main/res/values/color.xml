@@ -2,5 +2,10 @@
 <resources>
 
     <color name="aaa">#9a9298</color>
+    <color name="toolbar_background">#81F7F3</color>
+    <color name="toolbar_textView_notifications_border">#020405</color>
+    <color name="toolbar_textView_notifications_background">#EEFA11</color>
+    <color name="central_text">#F8F8FF</color>
+    <color name="searchview_background">#F8F8FF</color>
 
 </resources>
