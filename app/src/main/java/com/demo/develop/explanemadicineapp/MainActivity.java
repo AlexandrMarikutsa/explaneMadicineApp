@@ -24,44 +24,15 @@ import com.transitionseverywhere.TransitionSet;
 
 public class MainActivity extends Activity {
     private ViewGroup container;
+    private SearchView goButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        container = (ViewGroup) findViewById(R.id.container);
-        final Scene scene = Scene.getSceneForLayout(container,
-                R.layout.search_layout, this);
-
-        final SearchView goButton = (SearchView) findViewById(R.id.searchView);
-
-        goButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                TransitionManager.go(scene,getT());
-                findViewById(R.id.back_button).setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        onBackPressed();
-                    }
-                });
-            };
-
-        });
-    }
-
-//    private static void toggleVisibility(View... views) {
-//        for (View view : views) {
-//            boolean isVisible = view.getVisibility() == View.VISIBLE;
-//            view.setVisibility(isVisible ? View.INVISIBLE : View.VISIBLE);
-//        }
-//    }
-
-    @Override
-    public void onBackPressed() {
-        TransitionManager.go(Scene.getSceneForLayout(container,
-                R.layout.activity_main, this), getT());
+        initView();
+        setOnClickListener();
     }
 
     private TransitionSet getT() {
@@ -69,8 +40,37 @@ public class MainActivity extends Activity {
         set.addTransition(new Fade());
         set.addTransition(new ChangeBounds());
         set.setOrdering(TransitionSet.ORDERING_TOGETHER);
-        set.setDuration(1300);
+        set.setDuration(800);
         set.setInterpolator(new AccelerateInterpolator());
         return set;
     }
+
+    private void goScene(int sceneLayout) {
+        TransitionManager.go(Scene.getSceneForLayout(container, sceneLayout, this),getT());
+        initView();
+        setOnClickListener();
+    }
+
+    private void initView() {
+        container = (ViewGroup) findViewById(R.id.container);
+        goButton = (SearchView) findViewById(R.id.searchView);
+    }
+
+    private void setOnClickListener() {
+        goButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                goScene(R.layout.search_layout);
+
+                findViewById(R.id.back_button).setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        goScene(R.layout.activity_main);
+                    }
+                });
+            };
+
+        });
+    }
+
  }
