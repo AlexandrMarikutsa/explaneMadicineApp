@@ -1,5 +1,4 @@
 <resources>
-    <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="toolbar_layout_height">45dp</dimen>
@@ -41,6 +40,9 @@
 
     <dimen name="recent_imageView_layout_width">40dp</dimen>
     <dimen name="recent_imageView_layout_heidth">40dp</dimen>
+
+    <dimen name="toolbar_textView_padding_second_view">1dp</dimen>
+    <dimen name="toolbar_textView_text_size_second_view">20dp</dimen>
 
 
 </resources>
