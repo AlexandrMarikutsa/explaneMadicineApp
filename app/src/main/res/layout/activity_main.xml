@@ -76,7 +76,6 @@
         android:padding="@dimen/central_textView_padding"
         android:textColor="@color/central_text"
         android:textSize="@dimen/central_textView_text_size" />
-
     <SearchView
         android:id="@+id/searchView"
         android:layout_width="match_parent"

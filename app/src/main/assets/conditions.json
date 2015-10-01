@@ -1,0 +1,3557 @@
+[
+  {
+    "condition": "Acute Stress Disorder",
+    "specialty": "Anxiety disorders",
+    "_id": "5384d7aac9a0dd241cd977dc"
+  },
+  {
+    "condition": "Agoraphobia Without Panic Disorder",
+    "specialty": "Anxiety disorders",
+    "_id": "5374d9dac9a0dd8b03b1f30b"
+  },
+  {
+    "condition": "Generalized Anxiety Disorder",
+    "specialty": "Anxiety disorders",
+    "_id": "5396bbccc9a0dd611229bd17"
+  },
+  {
+    "condition": "Panic Disorder With Agoraphobia",
+    "specialty": "Anxiety disorders",
+    "_id": "5382df96c9a0dd241c765e58"
+  },
+  {
+    "condition": "Panic Disorder Without Agoraphobia",
+    "specialty": "Anxiety disorders",
+    "_id": "537996acc9a0dd8a03244956"
+  },
+  {
+    "condition": "Post Traumatic Stress Disorder",
+    "specialty": "Anxiety disorders",
+    "_id": "5315e0257f202d293b00000a"
+  },
+  {
+    "condition": "Social Phobia",
+    "specialty": "Anxiety disorders",
+    "_id": "539b40e0c9a0dd5c49c4f1c4"
+  },
+  {
+    "condition": "Specific Phobia",
+    "specialty": "Anxiety disorders",
+    "_id": "539ec2eac9a0dd046d16375f"
+  },
+  {
+    "condition": "Duct Ectasia",
+    "specialty": "Breast",
+    "_id": "5319c3357f202ddb18000000"
+  },
+  {
+    "condition": "Fat Necrosis",
+    "specialty": "Breast",
+    "_id": "5327f2f77f202dce29000004"
+  },
+  {
+    "condition": "Fibroadenoma",
+    "specialty": "Breast",
+    "_id": "53285a8b7f202d0c7800000b"
+  },
+  {
+    "condition": "Phylloides Tumour ",
+    "specialty": "Breast",
+    "_id": "53394c3b7f202d6032000002"
+  },
+  {
+    "condition": "Postmastectomy Lymphoedema Syndrome",
+    "specialty": "Breast",
+    "_id": "545126b45d25ab492e8b4734"
+  },
+  {
+    "condition": "Atrial Septal Defect",
+    "specialty": "Cardiology",
+    "_id": "53106e657f202d6441000000"
+  },
+  {
+    "condition": "Coarctation Of Aorta",
+    "specialty": "Cardiology",
+    "_id": "5332da027f202dea7300000b"
+  },
+  {
+    "condition": "Heart Failure",
+    "specialty": "Cardiology",
+    "_id": "53edb2eec9a0dd185efedb9e"
+  },
+  {
+    "condition": "Kawasaki Disease",
+    "specialty": "Cardiology",
+    "_id": "5321ab177f202d8b74000007"
+  },
+  {
+    "condition": "Mitral Regurgitation In Children",
+    "specialty": "Cardiology",
+    "_id": "53ec2afbc9a0dd0b5ea838b5"
+  },
+  {
+    "condition": "Patent Ductus Arteriosus",
+    "specialty": "Cardiology",
+    "_id": "5314326a7f202d263e000000"
+  },
+  {
+    "condition": "Supraventricular Tachycardia",
+    "specialty": "Cardiology",
+    "_id": "5353d1e5c9a0ddd003114e32"
+  },
+  {
+    "condition": "Transposition Of Great Arteries",
+    "specialty": "Cardiology",
+    "_id": "53f01f62c9a0dd0b5eebfee7"
+  },
+  {
+    "condition": "Ventricular Septal Defect In Children",
+    "specialty": "Cardiology",
+    "_id": "533cd8c4c9a0dd951760f57e"
+  },
+  {
+    "condition": "Acrocyanosis",
+    "specialty": "Cardiovascular",
+    "_id": "5388a58bc9a0dd241c0ec905"
+  },
+  {
+    "condition": "Acroparaesthesia",
+    "specialty": "Cardiovascular",
+    "_id": "5401fabcc9a0dd6c3f2fdce2"
+  },
+  {
+    "condition": "Acute Myocarditis",
+    "specialty": "Cardiovascular",
+    "_id": "53a7b5a6c9a0dd0b74ff6fd2"
+  },
+  {
+    "condition": "Acute Pericarditis",
+    "specialty": "Cardiovascular",
+    "_id": "53856eb2c9a0dd8b0322bc04"
+  },
+  {
+    "condition": "Alcoholic Cardiomyopathy",
+    "specialty": "Cardiovascular",
+    "_id": "53aae3b8c9a0dd6470e26237"
+  },
+  {
+    "condition": "Aneurysm Of Pulmonary Artery",
+    "specialty": "Cardiovascular",
+    "_id": "53b4d482c9a0dd0b74431cc3"
+  },
+  {
+    "condition": "Angina Pectoris",
+    "specialty": "Cardiovascular",
+    "_id": "53a4556fc9a0dd0b74c7c2a0"
+  },
+  {
+    "condition": "Anomalous Atrioventricular Excitation",
+    "specialty": "Cardiovascular",
+    "_id": "53c11918c9a0dd647006b318"
+  },
+  {
+    "condition": "Aortic Regurgitation",
+    "specialty": "Cardiovascular",
+    "_id": "531b077b7f202dd618000000"
+  },
+  {
+    "condition": "Aortic Stenosis",
+    "specialty": "Cardiovascular",
+    "_id": "5314684d7f202d273b000006"
+  },
+  {
+    "condition": "Arteriovenous Fistula Of Pulmonary Vessels",
+    "specialty": "Cardiovascular",
+    "_id": "53b8078cc9a0dd4a5621c146"
+  },
+  {
+    "condition": "Atherosclerosis",
+    "specialty": "Cardiovascular",
+    "_id": "53ba2901c9a0dd0b74641db7"
+  },
+  {
+    "condition": "Atherosclerotic Heart Disease",
+    "specialty": "Cardiovascular",
+    "_id": "53c0271dc9a0dd6470b7ae35"
+  },
+  {
+    "condition": "Atrial Septal Defect",
+    "specialty": "Cardiovascular",
+    "_id": "5331875c7f202db944000007"
+  },
+  {
+    "condition": "Atrioventricular Block",
+    "specialty": "Cardiovascular",
+    "_id": "53ac4af1c9a0dd64706d52ec"
+  },
+  {
+    "condition": "Atrioventricular Dissociation",
+    "specialty": "Cardiovascular",
+    "_id": "53ae2208c9a0dd64708a5642"
+  },
+  {
+    "condition": "Cardiomegaly",
+    "specialty": "Cardiovascular",
+    "_id": "53b9fb91c9a0dd4a56a11bae"
+  },
+  {
+    "condition": "Cardiovascular Syphilis",
+    "specialty": "Cardiovascular",
+    "_id": "53c39b0cc9a0ddb9648cd9a8"
+  },
+  {
+    "condition": "Chronic Adhesive Pericarditis",
+    "specialty": "Cardiovascular",
+    "_id": "53b8d39ac9a0dd4a56e70cc5"
+  },
+  {
+    "condition": "Chronic Constrictive Pericarditis",
+    "specialty": "Cardiovascular",
+    "_id": "53a25971c9a0dd4a5620b111"
+  },
+  {
+    "condition": "Coronary Artery Aneurysm",
+    "specialty": "Cardiovascular",
+    "_id": "53b0feb1c9a0dd4a56e5e4f5"
+  },
+  {
+    "condition": "Dilated Cardiomyopathy",
+    "specialty": "Cardiovascular",
+    "_id": "53aa6d8ac9a0dd64709cc8fe"
+  },
+  {
+    "condition": "Dressler Syndrome",
+    "specialty": "Cardiovascular",
+    "_id": "53a3b33dc9a0dd0b74faac48"
+  },
+  {
+    "condition": "Dyslipidemia",
+    "specialty": "Cardiovascular",
+    "_id": "53aec1d3c9a0dd4a5662ce70"
+  },
+  {
+    "condition": "Endocardial Fibroelastosis",
+    "specialty": "Cardiovascular",
+    "_id": "53b949c2c9a0dd0b74dd863e"
+  },
+  {
+    "condition": "Endomyocardial (eosinophilic) Disease",
+    "specialty": "Cardiovascular",
+    "_id": "53b7ec32c9a0dd6470f5c0f1"
+  },
+  {
+    "condition": "Essential Hypertension",
+    "specialty": "Cardiovascular",
+    "_id": "53a47625c9a0dd64706e8e95"
+  },
+  {
+    "condition": "Heart Failure",
+    "specialty": "Cardiovascular",
+    "_id": "53a4335ec9a0dd4d4c79c9ce"
+  },
+  {
+    "condition": "Hereditary Hemorrhagic Telangiectasia",
+    "specialty": "Cardiovascular",
+    "_id": "53b2be12c9a0dd4a56e5adf6"
+  },
+  {
+    "condition": "Hypertension",
+    "specialty": "Cardiovascular",
+    "_id": "53a7b314c9a0dd6470d4f73c"
+  },
+  {
+    "condition": "Interference Dissociation",
+    "specialty": "Cardiovascular",
+    "_id": "53be0a81c9a0dd6470a2f188"
+  },
+  {
+    "condition": "Ischemic Cardiomyopathy",
+    "specialty": "Cardiovascular",
+    "_id": "53ba378ec9a0dd0b7460e6bd"
+  },
+  {
+    "condition": "Ischemic Heart Disease",
+    "specialty": "Cardiovascular",
+    "_id": "53be7e06c9a0dd6470aaf8eb"
+  },
+  {
+    "condition": "Kyphoscoliotic Heart Disease",
+    "specialty": "Cardiovascular",
+    "_id": "53bd7d3ac9a0ddcd5668a6d2"
+  },
+  {
+    "condition": "Left Bundle-branch Block",
+    "specialty": "Cardiovascular",
+    "_id": "53ae4fa1c9a0dd4a56358cce"
+  },
+  {
+    "condition": "Long QT Syndrome",
+    "specialty": "Cardiovascular",
+    "_id": "53a8472bc9a0dd0b747bfe39"
+  },
+  {
+    "condition": "Lown-Ganong-Levine Syndrome",
+    "specialty": "Cardiovascular",
+    "_id": "53b55b56c9a0dd0b74e5419f"
+  },
+  {
+    "condition": "Mitral Regurgitation",
+    "specialty": "Cardiovascular",
+    "_id": "5319c10a7f202dd918000000"
+  },
+  {
+    "condition": "Mitral Stenosis",
+    "specialty": "Cardiovascular",
+    "_id": "53174e917f202d243b000009"
+  },
+  {
+    "condition": "Mitral Valve Prolapse",
+    "specialty": "Cardiovascular",
+    "_id": "53a66c2cc9a0dd4a56be0bfe"
+  },
+  {
+    "condition": "Obstructive Hypertrophic Cardiomyopathy",
+    "specialty": "Cardiovascular",
+    "_id": "53a25f68c9a0dd4d4c175a49"
+  },
+  {
+    "condition": "Old Myocardial Infarction",
+    "specialty": "Cardiovascular",
+    "_id": "53bff4b2c9a0ddcd56f23910"
+  },
+  {
+    "condition": "Orthostatic Hypotension",
+    "specialty": "Cardiovascular",
+    "_id": "53aea248c9a0dd4a564f9a27"
+  },
+  {
+    "condition": "Pericarditis In Bacterial Diseases",
+    "specialty": "Cardiovascular",
+    "_id": "53b28554c9a0dd0b74a16a44"
+  },
+  {
+    "condition": "Postcardiotomy Syndrome",
+    "specialty": "Cardiovascular",
+    "_id": "53e7203ac9a0ddf50e9292f0"
+  },
+  {
+    "condition": "Primary Pulmonary Hypertension",
+    "specialty": "Cardiovascular",
+    "_id": "53a3d149c9a0dd0b7459f616"
+  },
+  {
+    "condition": "Pulmonary Embolism",
+    "specialty": "Cardiovascular",
+    "_id": "53afc171c9a0dd0b74198055"
+  },
+  {
+    "condition": "Pulmonary Stenosis",
+    "specialty": "Cardiovascular",
+    "_id": "539c2314c9a0dd046d0a5cc6"
+  },
+  {
+    "condition": "Raynaud Syndrome",
+    "specialty": "Cardiovascular",
+    "_id": "53e0989ac9a0ddf50eea22fd"
+  },
+  {
+    "condition": "Re-entry Ventricular Arrhythmia",
+    "specialty": "Cardiovascular",
+    "_id": "53bbfcadc9a0dd4a568f29f0"
+  },
+  {
+    "condition": "Restrictive Cardiomyopathy",
+    "specialty": "Cardiovascular",
+    "_id": "53acfd88c9a0dd64708d66da"
+  },
+  {
+    "condition": "Rheumatic Carditis",
+    "specialty": "Cardiovascular",
+    "_id": "53a1ae52c9a0dd0b744b0e3c"
+  },
+  {
+    "condition": "Right Bundle-branch Block",
+    "specialty": "Cardiovascular",
+    "_id": "53b37f5bc9a0dd4a5607a017"
+  },
+  {
+    "condition": "Secondary Hypertension",
+    "specialty": "Cardiovascular",
+    "_id": "53b95e67c9a0dd0b74cec69e"
+  },
+  {
+    "condition": "Sick Sinus Syndrome",
+    "specialty": "Cardiovascular",
+    "_id": "53a68222c9a0dd0b748bca35"
+  },
+  {
+    "condition": "Silent Myocardial Ischemia",
+    "specialty": "Cardiovascular",
+    "_id": "53aae820c9a0dd647093e843"
+  },
+  {
+    "condition": "Stokes-Adams Syndrome",
+    "specialty": "Cardiovascular",
+    "_id": "53b4a35fc9a0dd0b74434ef4"
+  },
+  {
+    "condition": "Temporal Arteritis",
+    "specialty": "Cardiovascular",
+    "_id": "5344b8f6c9a0dd7059e8787b"
+  },
+  {
+    "condition": "Tricuspid Regurgitation",
+    "specialty": "Cardiovascular",
+    "_id": "5327d5437f202dd129000002"
+  },
+  {
+    "condition": "Trifascicular Block",
+    "specialty": "Cardiovascular",
+    "_id": "53b75c5fc9a0dd6470006235"
+  },
+  {
+    "condition": "Ventricular Fibrillation",
+    "specialty": "Cardiovascular",
+    "_id": "53bcd7b2c9a0dd0b744b690b"
+  },
+  {
+    "condition": "Ventricular Septal Defect",
+    "specialty": "Cardiovascular",
+    "_id": "5382f7c8c9a0dda01c336ad9"
+  },
+  {
+    "condition": "Ventricular Tachycardia",
+    "specialty": "Cardiovascular",
+    "_id": "53a96f78c9a0dd4a568e7d33"
+  },
+  {
+    "condition": "Viral Carditis",
+    "specialty": "Cardiovascular",
+    "_id": "53a7c716c9a0dd6470ef6130"
+  },
+  {
+    "condition": " Appendicitis",
+    "specialty": "Colorectal",
+    "_id": "5339659a7f202d753b000003"
+  },
+  {
+    "condition": "Anal Fissure",
+    "specialty": "Colorectal",
+    "_id": "53e2620cc9a0ddf711234059"
+  },
+  {
+    "condition": "Angiodysplasia Of The Colon",
+    "specialty": "Colorectal",
+    "_id": "53e855c9c9a0ddf71175f84e"
+  },
+  {
+    "condition": "Bleeding Per Rectum",
+    "specialty": "Colorectal",
+    "_id": "53fd9d5ec9a0dd8c3f85dc06"
+  },
+  {
+    "condition": "Colonic Carcinoma",
+    "specialty": "Colorectal",
+    "_id": "53f81ef5c9a0dde003d41ff6"
+  },
+  {
+    "condition": "Diverticular Disease",
+    "specialty": "Colorectal",
+    "_id": "53fbe8bec9a0dd8228173407"
+  },
+  {
+    "condition": "Hemorrhoids",
+    "specialty": "Colorectal",
+    "_id": "538f6941c9a0dd8b03c5addd"
+  },
+  {
+    "condition": "Perianal Fistula",
+    "specialty": "Colorectal",
+    "_id": "53f18b17c9a0dd185efa129d"
+  },
+  {
+    "condition": "Rectal Carcinoma",
+    "specialty": "Colorectal",
+    "_id": "54313e385d25ab492e8b45d6"
+  },
+  {
+    "condition": "Rectal Prolapse",
+    "specialty": "Colorectal",
+    "_id": "543f86e65d25ab44118b4761"
+  },
+  {
+    "condition": "Amnestic Disorders",
+    "specialty": "Delirium, dementia, and amnestic and other cognitive disorders",
+    "_id": "5405401ac9a0dda64a1e886f"
+  },
+  {
+    "condition": "Delirium",
+    "specialty": "Delirium, dementia, and amnestic and other cognitive disorders",
+    "_id": "538725c5c9a0dd241c611d89"
+  },
+  {
+    "condition": "Dementia",
+    "specialty": "Delirium, dementia, and amnestic and other cognitive disorders",
+    "_id": "53cb7e6ac9a0dd22655079bb"
+  },
+  {
+    "condition": "Acrodermatitis Enteropathica",
+    "specialty": "Dermatology",
+    "_id": "53c4e1fac9a0ddcd5679a592"
+  },
+  {
+    "condition": "Allergic Dermatitis",
+    "specialty": "Dermatology",
+    "_id": "5403c6acc9a0dd6c3f7758a6"
+  },
+  {
+    "condition": "Atopic Eczema",
+    "specialty": "Dermatology",
+    "_id": "533a47a17f202d793b000001"
+  },
+  {
+    "condition": "Atopic Eczema In Children",
+    "specialty": "Dermatology",
+    "_id": "531ac9c17f202dd118000001"
+  },
+  {
+    "condition": "Basal Cell Carcinoma",
+    "specialty": "Dermatology",
+    "_id": "537e1f82c9a0dd241ccd2408"
+  },
+  {
+    "condition": "Black Piedra",
+    "specialty": "Dermatology",
+    "_id": "54102c37c9a0dda64af48842"
+  },
+  {
+    "condition": "Candidiasis Of Skin And Nail",
+    "specialty": "Dermatology",
+    "_id": "536cf971c9a0dd8b03ea9132"
+  },
+  {
+    "condition": "Eczema Herpeticum",
+    "specialty": "Dermatology",
+    "_id": "53a5b56bc9a0dd4a56f1c3a1"
+  },
+  {
+    "condition": "Erythema Intertrigo",
+    "specialty": "Dermatology",
+    "_id": "540801c9c9a0dd6c3f483fd1"
+  },
+  {
+    "condition": "Erythrasma",
+    "specialty": "Dermatology",
+    "_id": "53d5c8a3c9a0ddf50e63e26f"
+  },
+  {
+    "condition": "Impetigo",
+    "specialty": "Dermatology",
+    "_id": "5323c4337f202d055300000f"
+  },
+  {
+    "condition": "Impetigo In Children",
+    "specialty": "Dermatology",
+    "_id": "5315a5d67f202df33b000002"
+  },
+  {
+    "condition": "Irritant Contact Dermatitis",
+    "specialty": "Dermatology",
+    "_id": "544620ba5d25ab44118b47b9"
+  },
+  {
+    "condition": "Keratocanthoma",
+    "specialty": "Dermatology",
+    "_id": "53f20ca6c9a0dd185e2e1ac5"
+  },
+  {
+    "condition": "Lichen Planus",
+    "specialty": "Dermatology",
+    "_id": "53672e5bc9a0ddd003c05887"
+  },
+  {
+    "condition": "Melanoma",
+    "specialty": "Dermatology",
+    "_id": "5422da95c9a0dda51c5bf095"
+  },
+  {
+    "condition": "Nevus",
+    "specialty": "Dermatology",
+    "_id": "537ad05bc9a0dd8a03aafe0b"
+  },
+  {
+    "condition": "Nevus In Children",
+    "specialty": "Dermatology",
+    "_id": "5382e8f6c9a0dda01c016cc6"
+  },
+  {
+    "condition": "Parapsoriasis",
+    "specialty": "Dermatology",
+    "_id": "54145ba8c9a0dd8c3f977231"
+  },
+  {
+    "condition": "Pemphigus",
+    "specialty": "Dermatology",
+    "_id": "542387e8c9a0dd0d2caa4409"
+  },
+  {
+    "condition": "Pinta",
+    "specialty": "Dermatology",
+    "_id": "53d20385c9a0dd1e0e92d053"
+  },
+  {
+    "condition": "Pityriasis Alba",
+    "specialty": "Dermatology",
+    "_id": "53f308d9c9a0dd0b5e63e867"
+  },
+  {
+    "condition": "Pityriasis Versicolor",
+    "specialty": "Dermatology",
+    "_id": "53313acf7f202d5b44000009"
+  },
+  {
+    "condition": "Pityriasis Versicolor In Children",
+    "specialty": "Dermatology",
+    "_id": "532678187f202d0e78000000"
+  },
+  {
+    "condition": "Prurigo",
+    "specialty": "Dermatology",
+    "_id": "53fb68abc9a0dd0d13ac5470"
+  },
+  {
+    "condition": "Psoriasis",
+    "specialty": "Dermatology",
+    "_id": "53bfdca1c9a0dd2265365a1e"
+  },
+  {
+    "condition": "Psoriasis In Children",
+    "specialty": "Dermatology",
+    "_id": "533190677f202db944000008"
+  },
+  {
+    "condition": "Scabies",
+    "specialty": "Dermatology",
+    "_id": "531620417f202d5a4000000b"
+  },
+  {
+    "condition": "Scabies In Children",
+    "specialty": "Dermatology",
+    "_id": "53148a9a7f202d5c40000003"
+  },
+  {
+    "condition": "Seborrhoeic Dermatitis",
+    "specialty": "Dermatology",
+    "_id": "53fc3e60c9a0dd1139b33383"
+  },
+  {
+    "condition": "Staphylococcal Scalded Skin Syndrome",
+    "specialty": "Dermatology",
+    "_id": "53df2288c9a0dd1d0ee0d941"
+  },
+  {
+    "condition": "Tinea Barbae",
+    "specialty": "Dermatology",
+    "_id": "5344bcd4c9a0dd705974dbf7"
+  },
+  {
+    "condition": "Tinea Capitis",
+    "specialty": "Dermatology",
+    "_id": "5338f13f7f202da40a000001"
+  },
+  {
+    "condition": "Tinea Corporis",
+    "specialty": "Dermatology",
+    "_id": "533d16b7c9a0ddc82e7a573f"
+  },
+  {
+    "condition": "Tinea Cruris",
+    "specialty": "Dermatology",
+    "_id": "5340c48ec9a0ddc82ec09872"
+  },
+  {
+    "condition": "Tinea Imbricata",
+    "specialty": "Dermatology",
+    "_id": "537c1156c9a0dd8a0370a821"
+  },
+  {
+    "condition": "Tinea Infections",
+    "specialty": "Dermatology",
+    "_id": "5382bff1c9a0dda01ca435f5"
+  },
+  {
+    "condition": "Tinea Infections In Children",
+    "specialty": "Dermatology",
+    "_id": "53858170c9a0dda01c6d5665"
+  },
+  {
+    "condition": "Tinea Manuum",
+    "specialty": "Dermatology",
+    "_id": "535df361c9a0dd3942d4aa4e"
+  },
+  {
+    "condition": "Tinea Nigra",
+    "specialty": "Dermatology",
+    "_id": "53780457c9a0dd8b03e383b5"
+  },
+  {
+    "condition": "Tinea Pedis",
+    "specialty": "Dermatology",
+    "_id": "53458a64c9a0dd7059416281"
+  },
+  {
+    "condition": "Tinea Unguium",
+    "specialty": "Dermatology",
+    "_id": "5355e1efc9a0ddd0030a0962"
+  },
+  {
+    "condition": "Viral Warts",
+    "specialty": "Dermatology",
+    "_id": "536f9e3ec9a0dd8a03426f1f"
+  },
+  {
+    "condition": "White Piedra",
+    "specialty": "Dermatology",
+    "_id": "541b89e2c9a0dda64a08ccef"
+  },
+  {
+    "condition": "Attention-deficit And Disruptive Behavior Disorders",
+    "specialty": "Disorders of infancy, childhood, or adolescence",
+    "_id": "5473ff8d5d25ab492e8b47a6"
+  },
+  {
+    "condition": "Tic Disorders",
+    "specialty": "Disorders of infancy, childhood, or adolescence",
+    "_id": "53e34db9c9a0ddf50e7fffb9"
+  },
+  {
+    "condition": "Anorexia Nervosa",
+    "specialty": "Eating disorders",
+    "_id": "53875982c9a0dd241c5bde95"
+  },
+  {
+    "condition": "Bulimia Nervosa",
+    "specialty": "Eating disorders",
+    "_id": "53ad6f31c9a0dd0b7433912e"
+  },
+  {
+    "condition": "Acute Respiratory Failure",
+    "specialty": "Emergency Medicine",
+    "_id": "538d5d2bc9a0dd241cb9a935"
+  },
+  {
+    "condition": "Addisonian Crisis",
+    "specialty": "Emergency Medicine",
+    "_id": "537adb46c9a0dd8a03ce0c4d"
+  },
+  {
+    "condition": "Cardiac Arrest",
+    "specialty": "Emergency Medicine",
+    "_id": "53953f2dc9a0dd5e125c8680"
+  },
+  {
+    "condition": "Diabetic Coma",
+    "specialty": "Emergency Medicine",
+    "_id": "5379d8d1c9a0dda01c9bf181"
+  },
+  {
+    "condition": "Diabetic Ketoacidosis",
+    "specialty": "Emergency Medicine",
+    "_id": "53885acdc9a0dda01c690925"
+  },
+  {
+    "condition": "Drug-induced Hypoglycaemia Without Coma",
+    "specialty": "Emergency Medicine",
+    "_id": "5399f4f6c9a0dd43541def95"
+  },
+  {
+    "condition": "Hyperosmolar Non Ketotic Coma",
+    "specialty": "Emergency Medicine",
+    "_id": "5389386bc9a0dd8b03bddba7"
+  },
+  {
+    "condition": "Hypertensive Encephalopathy",
+    "specialty": "Emergency Medicine",
+    "_id": "538956e6c9a0dd241c41b4b0"
+  },
+  {
+    "condition": "Malignant Neuroleptic Syndrome",
+    "specialty": "Emergency Medicine",
+    "_id": "53903bd9c9a0dd241ca36bd3"
+  },
+  {
+    "condition": "Myxoedema Coma",
+    "specialty": "Emergency Medicine",
+    "_id": "53908bcbc9a0dd241cd4032c"
+  },
+  {
+    "condition": "Non ST Elevation Myocardial Infarction",
+    "specialty": "Emergency Medicine",
+    "_id": "532ffc5c7f202d6144000001"
+  },
+  {
+    "condition": "Nondiabetic Hypoglycaemic Coma",
+    "specialty": "Emergency Medicine",
+    "_id": "5388bf86c9a0dd241c9f7517"
+  },
+  {
+    "condition": "Poisoning - Antihistamines",
+    "specialty": "Emergency Medicine",
+    "_id": "538d3b21c9a0dd8b03678b30"
+  },
+  {
+    "condition": "Poisoning - Cleaning Substances",
+    "specialty": "Emergency Medicine",
+    "_id": "53c1e7cbc9a0ddcd5650dd9f"
+  },
+  {
+    "condition": "Poisoning - Cosmetics And Personal Care Products",
+    "specialty": "Emergency Medicine",
+    "_id": "5401dc7ec9a0dda64ad96f59"
+  },
+  {
+    "condition": "Poisoning - Hydrocarbons",
+    "specialty": "Emergency Medicine",
+    "_id": "539d395ac9a0ddc4617a30e5"
+  },
+  {
+    "condition": "Poisoning - Paracetamol",
+    "specialty": "Emergency Medicine",
+    "_id": "53898597c9a0dd8b0309fb5e"
+  },
+  {
+    "condition": "Poisoning - Pesticides (Organophosphates)",
+    "specialty": "Emergency Medicine",
+    "_id": "53980135c9a0dd435435b8a8"
+  },
+  {
+    "condition": "Poisoning - Pesticides (Paraquat)",
+    "specialty": "Emergency Medicine",
+    "_id": "5397e094c9a0dd611242061f"
+  },
+  {
+    "condition": "ST Elevation Myocardial Infarction",
+    "specialty": "Emergency Medicine",
+    "_id": "532ae9957f202d027800000e"
+  },
+  {
+    "condition": "Status Asthmaticus",
+    "specialty": "Emergency Medicine",
+    "_id": "536633ecc9a0dd39423658a8"
+  },
+  {
+    "condition": "Status Epilepticus",
+    "specialty": "Emergency Medicine",
+    "_id": "538c0462c9a0dda01c2f2762"
+  },
+  {
+    "condition": "Status Migrainosus",
+    "specialty": "Emergency Medicine",
+    "_id": "538d14b9c9a0dd8b0302b116"
+  },
+  {
+    "condition": "Thyroid Crisis",
+    "specialty": "Emergency Medicine",
+    "_id": "534b6cfac9a0ddd103cf4924"
+  },
+  {
+    "condition": "Anaplastic Thyroid Carcinoma",
+    "specialty": "Endocrine",
+    "_id": "53418c3ac9a0ddc92e595123"
+  },
+  {
+    "condition": "Follicular Thyroid Carcinoma",
+    "specialty": "Endocrine",
+    "_id": "538c32dcc9a0dda01ce57bd2"
+  },
+  {
+    "condition": "Medullary Thyroid Carcinoma",
+    "specialty": "Endocrine",
+    "_id": "53e99c57c9a0ddf7116116a3"
+  },
+  {
+    "condition": "Papillary Thyroid Carcinoma",
+    "specialty": "Endocrine",
+    "_id": "53cd1999c9a0ddf50e5708be"
+  },
+  {
+    "condition": "Parathyroid Carcinoma",
+    "specialty": "Endocrine",
+    "_id": "542a52cd5d25ab44118b4588"
+  },
+  {
+    "condition": "Pheochromocytoma",
+    "specialty": "Endocrine",
+    "_id": "5315a2a57f202d623b000003"
+  },
+  {
+    "condition": "Thyroid Goitre",
+    "specialty": "Endocrine",
+    "_id": "538ec032c9a0dd241c7f9f4c"
+  },
+  {
+    "condition": "Acromegaly",
+    "specialty": "Endocrinology, Metabolism and Nutrition",
+    "_id": "5360f992c9a0ddd0034aa47d"
+  },
+  {
+    "condition": "Acute Intermittent Porphyria",
+    "specialty": "Endocrinology, Metabolism and Nutrition",
+    "_id": "5350d404c9a0ddd00356551d"
+  },
+  {
+    "condition": "Addison's Disease",
+    "specialty": "Endocrinology, Metabolism and Nutrition",
+    "_id": "532200197f202d0753000000"
+  },
+  {
+    "condition": "Autoimmune Thyroiditis",
+    "specialty": "Endocrinology, Metabolism and Nutrition",
+    "_id": "53742d99c9a0dd8a0338f573"
+  },
+  {
+    "condition": "Carcinoid Syndrome",
+    "specialty": "Endocrinology, Metabolism and Nutrition",
+    "_id": "540150bcc9a0dd8c3ffdbbda"
+  },
+  {
+    "condition": "Crigler-Najjar Syndrome",
+    "specialty": "Endocrinology, Metabolism and Nutrition",
+    "_id": "5431632b5d25ab43118b47c0"
+  },
+  {
+    "condition": "Cushing's Disease",
+    "specialty": "Endocrinology, Metabolism and Nutrition",
+    "_id": "53e3937bc9a0ddf50e9fa9cf"
+  },
+  {
+    "condition": "Deficiency Of Vitamin E",
+    "specialty": "Endocrinology, Metabolism and Nutrition",
+    "_id": "53fe9c71c9a0dd6c3f0be681"
+  },
+  {
+    "condition": "Deficiency Of Vitamin K",
+    "specialty": "Endocrinology, Metabolism and Nutrition",
+    "_id": "543f46015d25ab492e8b46a8"
+  },
+  {
+    "condition": "Dietary Zinc Deficiency",
+    "specialty": "Endocrinology, Metabolism and Nutrition",
+    "_id": "53d623dbc9a0dd1e0e6a313a"
+  },
+  {
+    "condition": "Familial Hypercholesterolaemia",
+    "specialty": "Endocrinology, Metabolism and Nutrition",
+    "_id": "53ed9dd0c9a0dd0b5ef609a0"
+  },
+  {
+    "condition": "Hereditary Xanthinuria",
+    "specialty": "Endocrinology, Metabolism and Nutrition",
+    "_id": "53ce1365c9a0dd1e0e9ff500"
+  },
+  {
+    "condition": "Hyperparathyroidism",
+    "specialty": "Endocrinology, Metabolism and Nutrition",
+    "_id": "534f5bd9c9a0ddd103d8f1c3"
+  },
+  {
+    "condition": "Hypopituitarism",
+    "specialty": "Endocrinology, Metabolism and Nutrition",
+    "_id": "54088a2dc9a0dd6c3f496d14"
+  },
+  {
+    "condition": "Magnesium Deficiency",
+    "specialty": "Endocrinology, Metabolism and Nutrition",
+    "_id": "53c1017fc9a0ddcd56212587"
+  },
+  {
+    "condition": "Nelson Syndrome",
+    "specialty": "Endocrinology, Metabolism and Nutrition",
+    "_id": "540363bdc9a0dd6c3f4de507"
+  },
+  {
+    "condition": "Nontoxic Multinodular Goitre",
+    "specialty": "Endocrinology, Metabolism and Nutrition",
+    "_id": "538580a9c9a0dd241cb25fd3"
+  },
+  {
+    "condition": "Primary Hyperparathyroidism",
+    "specialty": "Endocrinology, Metabolism and Nutrition",
+    "_id": "53a5665ec9a0dd0b7419e3d4"
+  },
+  {
+    "condition": "Secondary Hyperparathyroidism",
+    "specialty": "Endocrinology, Metabolism and Nutrition",
+    "_id": "53bd1be1c9a0ddcd56d0d78e"
+  },
+  {
+    "condition": "Sequelae Of Rickets",
+    "specialty": "Endocrinology, Metabolism and Nutrition",
+    "_id": "53550a2bc9a0ddd103633f9b"
+  },
+  {
+    "condition": "Tertiary Hyperparathryoidism",
+    "specialty": "Endocrinology, Metabolism and Nutrition",
+    "_id": "53c64399c9a0ddcd56bd06ab"
+  },
+  {
+    "condition": "Vitamin A Deficiency",
+    "specialty": "Endocrinology, Metabolism and Nutrition",
+    "_id": "534e5938c9a0ddd003f93d30"
+  },
+  {
+    "condition": "Cord Prolapse",
+    "specialty": "Fetal Medicine",
+    "_id": "5364b3afc9a0dd39425636ab"
+  },
+  {
+    "condition": "Fetal Growth Restriction",
+    "specialty": "Fetal Medicine",
+    "_id": "53f9808dc9a0dd72062352c4"
+  },
+  {
+    "condition": "Macrosomia",
+    "specialty": "Fetal Medicine",
+    "_id": "53d227e1c9a0ddf50eb1d64b"
+  },
+  {
+    "condition": "Multifetal Pregnancy",
+    "specialty": "Fetal Medicine",
+    "_id": "53b30335c9a0dd64708338aa"
+  },
+  {
+    "condition": "Neural Tube Defects",
+    "specialty": "Fetal Medicine",
+    "_id": "53bbb6bac9a0dd0b74b0b805"
+  },
+  {
+    "condition": "Prenatal Diagnosis For Congenital Malformations And Genetic Disorders",
+    "specialty": "Fetal Medicine",
+    "_id": "5400012dc9a0dda64a2c8dde"
+  },
+  {
+    "condition": "Rh Incompatibility",
+    "specialty": "Fetal Medicine",
+    "_id": "53faf583c9a0ddf010675fe7"
+  },
+  {
+    "condition": "Twin-to-Twin Transfusion Syndrome",
+    "specialty": "Fetal Medicine",
+    "_id": "53fb6c54c9a0dd18130ec16f"
+  },
+  {
+    "condition": "Vasa Previa",
+    "specialty": "Fetal Medicine",
+    "_id": "53f9f78bc9a0dddf031bd5da"
+  },
+  {
+    "condition": "Abscess Of Liver",
+    "specialty": "Gastroenterology",
+    "_id": "53c7ce07c9a0ddcd56510cba"
+  },
+  {
+    "condition": "Achalasia Cardia In Children",
+    "specialty": "Gastroenterology",
+    "_id": "533793cc7f202d594400001b"
+  },
+  {
+    "condition": "Acute Gastric Dilatation",
+    "specialty": "Gastroenterology",
+    "_id": "53d67f39c9a0dd1e0eee9eea"
+  },
+  {
+    "condition": "Acute Hepatitis A",
+    "specialty": "Gastroenterology",
+    "_id": "53429ae9c9a0ddc92ed2e776"
+  },
+  {
+    "condition": "Acute Hepatitis B",
+    "specialty": "Gastroenterology",
+    "_id": "533c3f4d7f202d2d3100000f"
+  },
+  {
+    "condition": "Acute Hepatitis C",
+    "specialty": "Gastroenterology",
+    "_id": "5346a17dc9a0dd7059f97db7"
+  },
+  {
+    "condition": "Acute Hepatitis E",
+    "specialty": "Gastroenterology",
+    "_id": "5364d870c9a0ddd003b25224"
+  },
+  {
+    "condition": "Allergic And Dietetic Colitis And Gastroenteritis",
+    "specialty": "Gastroenterology",
+    "_id": "5414258fc9a0dd8c3f018e4b"
+  },
+  {
+    "condition": "Budd-Chiari Syndrome ",
+    "specialty": "Gastroenterology",
+    "_id": "53885877c9a0dd241c7ac22e"
+  },
+  {
+    "condition": "Chronic Passive Congestion Of The Liver",
+    "specialty": "Gastroenterology",
+    "_id": "53eeb908c9a0dd0b5e65842c"
+  },
+  {
+    "condition": "Chronic Viral Hepatitis",
+    "specialty": "Gastroenterology",
+    "_id": "53cc6331c9a0ddb9645ec904"
+  },
+  {
+    "condition": "Cirrhosis",
+    "specialty": "Gastroenterology",
+    "_id": "53834cd7c9a0dda01ca40509"
+  },
+  {
+    "condition": "Crohn's Disease",
+    "specialty": "Gastroenterology",
+    "_id": "539159dec9a0dd241c996571"
+  },
+  {
+    "condition": "Dengue",
+    "specialty": "Gastroenterology",
+    "_id": "5380ea7ac9a0dd241c6a5df2"
+  },
+  {
+    "condition": "Duodenal Ulcer",
+    "specialty": "Gastroenterology",
+    "_id": "53e0705bc9a0ddf50ee92cb4"
+  },
+  {
+    "condition": "Erythroplakia",
+    "specialty": "Gastroenterology",
+    "_id": "53e5e3e6c9a0dd1e0eb4825a"
+  },
+  {
+    "condition": "Esophagitis",
+    "specialty": "Gastroenterology",
+    "_id": "53ca95eac9a0dd226557732a"
+  },
+  {
+    "condition": "Functional Diarrhoea ",
+    "specialty": "Gastroenterology",
+    "_id": "5408352dc9a0dd6c3f7fffac"
+  },
+  {
+    "condition": "Gastric Ulcer",
+    "specialty": "Gastroenterology",
+    "_id": "53d66dddc9a0dd1d0e71956e"
+  },
+  {
+    "condition": "Gastrojejunal Ulcer",
+    "specialty": "Gastroenterology",
+    "_id": "53ede5bfc9a0dd0b5e06954e"
+  },
+  {
+    "condition": "Glossitis",
+    "specialty": "Gastroenterology",
+    "_id": "53e64f87c9a0ddf50e8f69fa"
+  },
+  {
+    "condition": "Granulomatous Hepatitis",
+    "specialty": "Gastroenterology",
+    "_id": "53e89750c9a0ddf7115da978"
+  },
+  {
+    "condition": "Hemochromatosis",
+    "specialty": "Gastroenterology",
+    "_id": "53cf75aec9a0dd1e0e095d8c"
+  },
+  {
+    "condition": "Hepatic Fibrosis",
+    "specialty": "Gastroenterology",
+    "_id": "53eb1884c9a0ddf50e3e2bfa"
+  },
+  {
+    "condition": "Infarction Of The Liver",
+    "specialty": "Gastroenterology",
+    "_id": "53f06a17c9a0dd175e9d5533"
+  },
+  {
+    "condition": "Intussusception",
+    "specialty": "Gastroenterology",
+    "_id": "5315fcb17f202d293b00000b"
+  },
+  {
+    "condition": "Megaesophagus",
+    "specialty": "Gastroenterology",
+    "_id": "53eb2050c9a0dd2108695352"
+  },
+  {
+    "condition": "Non Alcoholic Fatty Liver Disease",
+    "specialty": "Gastroenterology",
+    "_id": "53d51352c9a0dd1d0e03d95d"
+  },
+  {
+    "condition": "Non-Alcoholic Fatty Liver Disease",
+    "specialty": "Gastroenterology",
+    "_id": "53774045c9a0dd8b03c2d7f8"
+  },
+  {
+    "condition": "Non-Alcoholic Steatohepatitis",
+    "specialty": "Gastroenterology",
+    "_id": "53de29e5c9a0dd1d0e27a5ee"
+  },
+  {
+    "condition": "Peritonitis",
+    "specialty": "Gastroenterology",
+    "_id": "53cd3242c9a0dd1e0ebcd206"
+  },
+  {
+    "condition": "Phlebitis Of Portal Vein",
+    "specialty": "Gastroenterology",
+    "_id": "5405134fc9a0dd8c3f9d8f3c"
+  },
+  {
+    "condition": "Portal Vein Thrombosis",
+    "specialty": "Gastroenterology",
+    "_id": "53e25401c9a0dd1e0e96aaa1"
+  },
+  {
+    "condition": "Pylorospasm",
+    "specialty": "Gastroenterology",
+    "_id": "53edc026c9a0dd185e0b33c4"
+  },
+  {
+    "condition": "Secondary Biliary Cirrhosis",
+    "specialty": "Gastroenterology",
+    "_id": "53e743d2c9a0ddf7111ea5c7"
+  },
+  {
+    "condition": "Tuberculous Esophagitis",
+    "specialty": "Gastroenterology",
+    "_id": "53cf7fa1c9a0ddf50e06c6af"
+  },
+  {
+    "condition": "Ulcerative Colitis",
+    "specialty": "Gastroenterology",
+    "_id": "53ca1326c9a0ddb964f233d0"
+  },
+  {
+    "condition": "Watery Diarrhea",
+    "specialty": "Gastroenterology",
+    "_id": "53cc80c4c9a0ddcd56c0d515"
+  },
+  {
+    "condition": "Wilson's Disease",
+    "specialty": "Gastroenterology",
+    "_id": "53ccc1bdc9a0dd1e0e1f58fd"
+  },
+  {
+    "condition": "Carpal Tunnel Syndrome",
+    "specialty": "General",
+    "_id": "53443e4ec9a0dd6f591cc204"
+  },
+  {
+    "condition": "Cellulitis",
+    "specialty": "General",
+    "_id": "53392f5c7f202d2931000000"
+  },
+  {
+    "condition": "Gas Gangrene",
+    "specialty": "General",
+    "_id": "53906640c9a0dd8b03831439"
+  },
+  {
+    "condition": "Pilonidal Sinus",
+    "specialty": "General",
+    "_id": "53e34ac4c9a0ddf50e9b7fda"
+  },
+  {
+    "condition": "Pruritus Ani",
+    "specialty": "General",
+    "_id": "54148a6dc9a0dda64ab120a6"
+  },
+  {
+    "condition": "Sialoadenitis",
+    "specialty": "General",
+    "_id": "53d8785bc9a0dd1e0ece042f"
+  },
+  {
+    "condition": "Varicocele",
+    "specialty": "General",
+    "_id": "53e235b5c9a0dd1e0e871a3a"
+  },
+  {
+    "condition": "Chronic Pelvic Pain",
+    "specialty": "General Gynecology",
+    "_id": "5337be9f7f202d3e01000000"
+  },
+  {
+    "condition": "Dysfunctional Uterine Bleeding",
+    "specialty": "General Gynecology",
+    "_id": "53724a41c9a0dd8a03ae7e7d"
+  },
+  {
+    "condition": "Dysmenorrhea",
+    "specialty": "General Gynecology",
+    "_id": "53f366dfc9a0dd175e54d03d"
+  },
+  {
+    "condition": "Early Pregnancy Loss",
+    "specialty": "General Gynecology",
+    "_id": "536fb1e8c9a0dd8b03a3b59e"
+  },
+  {
+    "condition": "Endometriosis",
+    "specialty": "General Gynecology",
+    "_id": "53490ddec9a0dd003152963c"
+  },
+  {
+    "condition": "Menorrhagia",
+    "specialty": "General Gynecology",
+    "_id": "53f18b8fc9a0dd185e2f1b2a"
+  },
+  {
+    "condition": "Normal Menstruation",
+    "specialty": "General Gynecology",
+    "_id": "53fef9fcc9a0dd8c3f2f1a12"
+  },
+  {
+    "condition": "Postprocedural Ovarian Failure",
+    "specialty": "General Gynecology",
+    "_id": "53fd8489c9a0dd8c3ffd9c14"
+  },
+  {
+    "condition": "Pruritus Vulvae",
+    "specialty": "General Gynecology",
+    "_id": "53ce3832c9a0dd1e0e536327"
+  },
+  {
+    "condition": "Uterine Fibroids ",
+    "specialty": "General Gynecology",
+    "_id": "53f77403c9a0dd691097732d"
+  },
+  {
+    "condition": "Achondroplasia",
+    "specialty": "Genetic & Congenital disorders",
+    "_id": "53f026b9c9a0dd185e623c78"
+  },
+  {
+    "condition": "Becker's Muscular Dystrophy",
+    "specialty": "Genetic & Congenital disorders",
+    "_id": "5338361f7f202d8b05000000"
+  },
+  {
+    "condition": "Osteogenesis Imperfecta",
+    "specialty": "Genetic & Congenital disorders",
+    "_id": "5333ac547f202df873000013"
+  },
+  {
+    "condition": "Sturge-Weber Syndrome",
+    "specialty": "Genetic & Congenital disorders",
+    "_id": "534fcef7c9a0ddd103dd67c2"
+  },
+  {
+    "condition": "Trisomy 21",
+    "specialty": "Genetic & Congenital disorders",
+    "_id": "5327e8537f202d0878000008"
+  },
+  {
+    "condition": "Cervical Carcinoma",
+    "specialty": "Gynecological Oncology",
+    "_id": "53da3be1c9a0dd1e0e0d9152"
+  },
+  {
+    "condition": "Choriocarcinoma",
+    "specialty": "Gynecological Oncology",
+    "_id": "53fd8071c9a0dd6c3f4f27e0"
+  },
+  {
+    "condition": "Endometrial Cancer",
+    "specialty": "Gynecological Oncology",
+    "_id": "53d339cfc9a0dd1d0e676314"
+  },
+  {
+    "condition": "Gestational Trophoblastic Diseases",
+    "specialty": "Gynecological Oncology",
+    "_id": "53f771b2c9a0dd175eb52194"
+  },
+  {
+    "condition": "Ovarian Cancer",
+    "specialty": "Gynecological Oncology",
+    "_id": "53f88b04c9a0dd7206768254"
+  },
+  {
+    "condition": "Vaginal Cancer",
+    "specialty": "Gynecological Oncology",
+    "_id": "53fa9dd7c9a0dd9e035d39e9"
+  },
+  {
+    "condition": "Vulval Carcinoma",
+    "specialty": "Gynecological Oncology",
+    "_id": "53f6c124c9a0dd185e9ddad8"
+  },
+  {
+    "condition": "Acquired Coagulation Factor Deficiency",
+    "specialty": "Hematology",
+    "_id": "5371a59bc9a0dd8b030c8f06"
+  },
+  {
+    "condition": "Acquired Pure Red Cell Aplasia ",
+    "specialty": "Hematology",
+    "_id": "53f0a64ac9a0dd0b5e8ee70d"
+  },
+  {
+    "condition": "Adenosine Deaminase Deficiency",
+    "specialty": "Hematology",
+    "_id": "54213fcec9a0dd0d2c9e8937"
+  },
+  {
+    "condition": "Agranulocytosis",
+    "specialty": "Hematology",
+    "_id": "53bf2988c9a0dd22655e6bd3"
+  },
+  {
+    "condition": "Allergic Purpura",
+    "specialty": "Hematology",
+    "_id": "540dbe10c9a0dd0d2c28032d"
+  },
+  {
+    "condition": "Alpha Thalassemia",
+    "specialty": "Hematology",
+    "_id": "53ef697fc9a0dd0b5e5daed9"
+  },
+  {
+    "condition": "Anticardiolipin Syndrome",
+    "specialty": "Hematology",
+    "_id": "53b23a63c9a0dd0b74b55a88"
+  },
+  {
+    "condition": "Antiphospholipid Syndrome",
+    "specialty": "Hematology",
+    "_id": "5378a82bc9a0dd8b03555b33"
+  },
+  {
+    "condition": "Autoimmune Hemolytic Anemia - Cold Type",
+    "specialty": "Hematology",
+    "_id": "53e43b95c9a0dd1e0e6cfb6a"
+  },
+  {
+    "condition": "Autoimmune Hemolytic Anemia - Warm Type",
+    "specialty": "Hematology",
+    "_id": "53cddd99c9a0dd1d0ed6cf9a"
+  },
+  {
+    "condition": "Beta Thalassaemia",
+    "specialty": "Hematology",
+    "_id": "53d8b073c9a0dd1e0e03ae48"
+  },
+  {
+    "condition": "Beta Thalassaemia In Children",
+    "specialty": "Hematology",
+    "_id": "54019b91c9a0dda64a69bc65"
+  },
+  {
+    "condition": "Congenital Dyserythropoietic Anaemia",
+    "specialty": "Hematology",
+    "_id": "53572a4ec9a0ddd103630ac5"
+  },
+  {
+    "condition": "Delta-beta Thalassaemia",
+    "specialty": "Hematology",
+    "_id": "53f03221c9a0dd175ec221eb"
+  },
+  {
+    "condition": "Drug Induced Hemolytic Anemia",
+    "specialty": "Hematology",
+    "_id": "53e1ae95c9a0dd1d0e4d1c5e"
+  },
+  {
+    "condition": "Drug-induced Aplastic Anaemia",
+    "specialty": "Hematology",
+    "_id": "5382e7ddc9a0dd8b03bb1214"
+  },
+  {
+    "condition": "Familial Erythrocytosis",
+    "specialty": "Hematology",
+    "_id": "5453c1e45d25ab492e8b4740"
+  },
+  {
+    "condition": "Folate Deficiency Anaemia",
+    "specialty": "Hematology",
+    "_id": "535e941bc9a0dd394258a58b"
+  },
+  {
+    "condition": "Glucose-6-phosphate Dehydrogenase (G6PD) Deficiency",
+    "specialty": "Hematology",
+    "_id": "54001526c9a0dd6c3f8b53f7"
+  },
+  {
+    "condition": "Haemolytic-uremic Syndrome",
+    "specialty": "Hematology",
+    "_id": "541fc233c9a0dda51cbe9ba7"
+  },
+  {
+    "condition": "Hemophilia A",
+    "specialty": "Hematology",
+    "_id": "542bda675d25ab492e8b456c"
+  },
+  {
+    "condition": "Hemophilia B",
+    "specialty": "Hematology",
+    "_id": "5432050f5d25ab44118b46ac"
+  },
+  {
+    "condition": "Hemophilia C",
+    "specialty": "Hematology",
+    "_id": "543605315d25ab492e8b461f"
+  },
+  {
+    "condition": "Hemophilias",
+    "specialty": "Hematology",
+    "_id": "5422e624c9a0dda51c41ec34"
+  },
+  {
+    "condition": "Hereditary Elliptocytosis",
+    "specialty": "Hematology",
+    "_id": "53e4e04fc9a0ddf50e01eb2f"
+  },
+  {
+    "condition": "Hereditary Factor IX Deficiency",
+    "specialty": "Hematology",
+    "_id": "53e51191c9a0dd1e0ed1e9a1"
+  },
+  {
+    "condition": "Hereditary Sideroblastic Anaemia",
+    "specialty": "Hematology",
+    "_id": "53da0e6ac9a0ddf50e14283e"
+  },
+  {
+    "condition": "Hereditary Spherocytosis",
+    "specialty": "Hematology",
+    "_id": "53bf82f9c9a0dd6470c05252"
+  },
+  {
+    "condition": "Hypersplenism",
+    "specialty": "Hematology",
+    "_id": "53e45b03c9a0ddf711f448db"
+  },
+  {
+    "condition": "Idiopathic Aplastic Anaemia",
+    "specialty": "Hematology",
+    "_id": "5371a48dc9a0dd8b03978816"
+  },
+  {
+    "condition": "Immune Thrombocytopenic Purpura",
+    "specialty": "Hematology",
+    "_id": "54227986c9a0dd0d2c6b3e58"
+  },
+  {
+    "condition": "Iron Deficiency Anaemia",
+    "specialty": "Hematology",
+    "_id": "53d49380c9a0ddf50e18d7fc"
+  },
+  {
+    "condition": "Methaemoglobinaemia",
+    "specialty": "Hematology",
+    "_id": "549d531d5d25abe2038b45f4"
+  },
+  {
+    "condition": "Microangiopathic Autoimmune Hemolytic Anemia",
+    "specialty": "Hematology",
+    "_id": "546abc815d25ab492e8b4799"
+  },
+  {
+    "condition": "Myelodysplastic Syndrome",
+    "specialty": "Hematology",
+    "_id": "5448b16f5d25ab44118b47cd"
+  },
+  {
+    "condition": "Myelofibrosis",
+    "specialty": "Hematology",
+    "_id": "5420f7d1c9a0dd0d2cfd78ce"
+  },
+  {
+    "condition": "Pernicious Anemia",
+    "specialty": "Hematology",
+    "_id": "53bca973c9a0dd647019b088"
+  },
+  {
+    "condition": "Polycythemia Rubra Vera",
+    "specialty": "Hematology",
+    "_id": "5418b527c9a0dd0d2c660604"
+  },
+  {
+    "condition": "Primary Thrombophilia",
+    "specialty": "Hematology",
+    "_id": "545702085d25ab44118b4805"
+  },
+  {
+    "condition": "Secondary Polycythaemia",
+    "specialty": "Hematology",
+    "_id": "541fd732c9a0dd0d2c231ec3"
+  },
+  {
+    "condition": "Sickle Cell Disease",
+    "specialty": "Hematology",
+    "_id": "5413a2e2c9a0dda64a954918"
+  },
+  {
+    "condition": "Sickle Cell Disease In Children",
+    "specialty": "Hematology",
+    "_id": "543c21755d25ab492e8b468d"
+  },
+  {
+    "condition": "Thrombotic Thrombocytopenic Purpura",
+    "specialty": "Hematology",
+    "_id": "540e7ae9c9a0dd0d2cb7cce7"
+  },
+  {
+    "condition": "Von Willebrand Disease",
+    "specialty": "Hematology",
+    "_id": "5345e223c9a0dd6f59d7730e"
+  },
+  {
+    "condition": "Cholecystitis",
+    "specialty": "Hepato-Pancreatico-Biliary",
+    "_id": "53523815c9a0ddd103f6e7b5"
+  },
+  {
+    "condition": "Choledochal Cyst",
+    "specialty": "Hepato-Pancreatico-Biliary",
+    "_id": "53c3a7f2c9a0dd2265d3ae97"
+  },
+  {
+    "condition": "Gall Stones",
+    "specialty": "Hepato-Pancreatico-Biliary",
+    "_id": "53fc53c8c9a0dd11393598f4"
+  },
+  {
+    "condition": "Pancreatitis",
+    "specialty": "Hepato-Pancreatico-Biliary",
+    "_id": "5402d5d6c9a0dda64ad18485"
+  },
+  {
+    "condition": "Trichotillomania",
+    "specialty": "Impulse-Control Disorders",
+    "_id": "538de734c9a0dd241cd9474c"
+  },
+  {
+    "condition": "Acanthamebiasis",
+    "specialty": "Infectious diseases",
+    "_id": "53516b04c9a0ddd103e296a1"
+  },
+  {
+    "condition": "Acanthocephaliasis",
+    "specialty": "Infectious diseases",
+    "_id": "5355195ec9a0ddd0035a6931"
+  },
+  {
+    "condition": "Actinomycetoma",
+    "specialty": "Infectious diseases",
+    "_id": "536f1125c9a0dd8b03c39d55"
+  },
+  {
+    "condition": "Actinomycosis",
+    "specialty": "Infectious diseases",
+    "_id": "5366131ec9a0dd3942f4df85"
+  },
+  {
+    "condition": "Acute Chagas Disease",
+    "specialty": "Infectious diseases",
+    "_id": "536a3167c9a0ddd003b0e3d4"
+  },
+  {
+    "condition": "Acute Gastropathy Due To Norwalk Agent",
+    "specialty": "Infectious diseases",
+    "_id": "535bce65c9a0ddd0037225df"
+  },
+  {
+    "condition": "Acute Pulmonary Blastomycosis",
+    "specialty": "Infectious diseases",
+    "_id": "5375de6bc9a0dd8b03e81295"
+  },
+  {
+    "condition": "Adenoviral Encephalitis",
+    "specialty": "Infectious diseases",
+    "_id": "53ab9b78c9a0dd0b7435ca6b"
+  },
+  {
+    "condition": "Adenoviral Enteritis",
+    "specialty": "Infectious diseases",
+    "_id": "5382eab2c9a0dda01ceada2c"
+  },
+  {
+    "condition": "Amebic Dysentery ",
+    "specialty": "Infectious diseases",
+    "_id": "540699ecc9a0dda64afa44fa"
+  },
+  {
+    "condition": "Ancylostomiasis",
+    "specialty": "Infectious diseases",
+    "_id": "53a5b3b5c9a0dd647005383b"
+  },
+  {
+    "condition": "Anisakiasis",
+    "specialty": "Infectious diseases",
+    "_id": "535342f4c9a0ddd003c0a5fd"
+  },
+  {
+    "condition": "Anthrax",
+    "specialty": "Infectious diseases",
+    "_id": "5320a6a97f202d8e74000004"
+  },
+  {
+    "condition": "Ascariasis",
+    "specialty": "Infectious diseases",
+    "_id": "534ad3e8c9a0ddd10389909b"
+  },
+  {
+    "condition": "Babesiosis",
+    "specialty": "Infectious diseases",
+    "_id": "53568288c9a0ddd003724a4f"
+  },
+  {
+    "condition": "Bacillus Cereus",
+    "specialty": "Infectious diseases",
+    "_id": "54087827c9a0dd8c3f989bdd"
+  },
+  {
+    "condition": "Balanitidiasis",
+    "specialty": "Infectious diseases",
+    "_id": "537584f7c9a0dd8a03fe54f1"
+  },
+  {
+    "condition": "Botulism",
+    "specialty": "Infectious diseases",
+    "_id": "534f71d9c9a0ddd103a4b6c8"
+  },
+  {
+    "condition": "Brucellosis",
+    "specialty": "Infectious diseases",
+    "_id": "535f6af4c9a0dd39421d555a"
+  },
+  {
+    "condition": "Cat-scratch Disease",
+    "specialty": "Infectious diseases",
+    "_id": "53ba554bc9a0dd6470ddf383"
+  },
+  {
+    "condition": "Cercarial Dermatitis",
+    "specialty": "Infectious diseases",
+    "_id": "53d357c8c9a0dd1d0e6762f1"
+  },
+  {
+    "condition": "Chikungunya Virus Disease",
+    "specialty": "Infectious diseases",
+    "_id": "5406bc11c9a0dda64aa3dac0"
+  },
+  {
+    "condition": "Cholera",
+    "specialty": "Infectious diseases",
+    "_id": "53458072c9a0dd705965e1c9"
+  },
+  {
+    "condition": "Chronic Chagas Disease",
+    "specialty": "Infectious diseases",
+    "_id": "537224f8c9a0dda01c4fd249"
+  },
+  {
+    "condition": "Clonorchiasis",
+    "specialty": "Infectious diseases",
+    "_id": "53e6f2b9c9a0ddf7112ac50f"
+  },
+  {
+    "condition": "Cowpox",
+    "specialty": "Infectious diseases",
+    "_id": "53ddf650c9a0dd1e0eafd376"
+  },
+  {
+    "condition": "Cutaneous Blastomycosis",
+    "specialty": "Infectious diseases",
+    "_id": "53e9a3f7c9a0dd21088de3c7"
+  },
+  {
+    "condition": "Cutaneous Erysipeloid",
+    "specialty": "Infectious diseases",
+    "_id": "53db0d8dc9a0ddf50ee5b8a9"
+  },
+  {
+    "condition": "Dicroceliasis",
+    "specialty": "Infectious diseases",
+    "_id": "53f5ea25c9a0dd0b5e76bcea"
+  },
+  {
+    "condition": "Diphyllobothriasis / Fish Tapeworm Infection",
+    "specialty": "Infectious diseases",
+    "_id": "53d9df46c9a0ddf50e01c1b5"
+  },
+  {
+    "condition": "Dipylidiasis",
+    "specialty": "Infectious diseases",
+    "_id": "53d9bc14c9a0ddf50e5d027e"
+  },
+  {
+    "condition": "Dracunculiasis",
+    "specialty": "Infectious diseases",
+    "_id": "53da42b1c9a0dd1e0e3960de"
+  },
+  {
+    "condition": "Enterobiasis",
+    "specialty": "Infectious diseases",
+    "_id": "53aa76a4c9a0dd0b74ae50f2"
+  },
+  {
+    "condition": "Erythema Infectiosum ",
+    "specialty": "Infectious diseases",
+    "_id": "53a797e5c9a0dd4a5660e3b9"
+  },
+  {
+    "condition": "Escherichia Coli Infection",
+    "specialty": "Infectious diseases",
+    "_id": "537a1087c9a0dda01c27655b"
+  },
+  {
+    "condition": "Eumycetoma",
+    "specialty": "Infectious diseases",
+    "_id": "53df0be0c9a0ddf50eeacbf2"
+  },
+  {
+    "condition": "Exanthema Subitum",
+    "specialty": "Infectious diseases",
+    "_id": "53faae55c9a0dd9d0372f919"
+  },
+  {
+    "condition": "Fasciolopsiasis",
+    "specialty": "Infectious diseases",
+    "_id": "53d4fd83c9a0ddf50e7a55c6"
+  },
+  {
+    "condition": "Filariasis",
+    "specialty": "Infectious diseases",
+    "_id": "5422a05ec9a0dd0d2c86c194"
+  },
+  {
+    "condition": "Giardiasis",
+    "specialty": "Infectious diseases",
+    "_id": "535663cec9a0ddd103bfb7a5"
+  },
+  {
+    "condition": "Gonorrhea",
+    "specialty": "Infectious diseases",
+    "_id": "533e458fc9a0ddc92ee20a36"
+  },
+  {
+    "condition": "HIV Related Candidiasis",
+    "specialty": "Infectious diseases",
+    "_id": "53e863cac9a0ddf711f0b302"
+  },
+  {
+    "condition": "Hand, Foot And Mouth Disease",
+    "specialty": "Infectious diseases",
+    "_id": "53798923c9a0dda01c8b4078"
+  },
+  {
+    "condition": "Helicobacter Pylori Infection",
+    "specialty": "Infectious diseases",
+    "_id": "537b9a57c9a0dd8a030a4c28"
+  },
+  {
+    "condition": "Herpes Simplex",
+    "specialty": "Infectious diseases",
+    "_id": "5402c460c9a0dd6c3fe44654"
+  },
+  {
+    "condition": "Heterophyiasis",
+    "specialty": "Infectious diseases",
+    "_id": "53e5c0eac9a0ddf7110b34d2"
+  },
+  {
+    "condition": "Hymenolepiasis",
+    "specialty": "Infectious diseases",
+    "_id": "53d65fccc9a0ddf50e86424e"
+  },
+  {
+    "condition": "Infectious Mononucleosis",
+    "specialty": "Infectious diseases",
+    "_id": "53832cc2c9a0dd241c9b7719"
+  },
+  {
+    "condition": "Isoporiasis",
+    "specialty": "Infectious diseases",
+    "_id": "53e8846dc9a0dd2108ae7b6d"
+  },
+  {
+    "condition": "Legionnaires Disease",
+    "specialty": "Infectious diseases",
+    "_id": "539fd6b5c9a0dd046d162dda"
+  },
+  {
+    "condition": "Leprosy",
+    "specialty": "Infectious diseases",
+    "_id": "5350bda0c9a0ddd103e87247"
+  },
+  {
+    "condition": "Lyme Disease",
+    "specialty": "Infectious diseases",
+    "_id": "5415b39ec9a0dda64a7496a8"
+  },
+  {
+    "condition": "Measles In Children",
+    "specialty": "Infectious diseases",
+    "_id": "530f01467f202de56700000e"
+  },
+  {
+    "condition": "Metagonimiasis",
+    "specialty": "Infectious diseases",
+    "_id": "53ec7c86c9a0dd175ee36f81"
+  },
+  {
+    "condition": "Molluscum Contagiosum",
+    "specialty": "Infectious diseases",
+    "_id": "536a1858c9a0dd394228eec9"
+  },
+  {
+    "condition": "Mucocutaneous Leishmaniasis",
+    "specialty": "Infectious diseases",
+    "_id": "538e0991c9a0dda01c845908"
+  },
+  {
+    "condition": "Mumps",
+    "specialty": "Infectious diseases",
+    "_id": "5359de18c9a0ddd103d5e46d"
+  },
+  {
+    "condition": "Necatoriasis",
+    "specialty": "Infectious diseases",
+    "_id": "53572ed0c9a0ddd103581720"
+  },
+  {
+    "condition": "Onchocerciasis",
+    "specialty": "Infectious diseases",
+    "_id": "53b0f2f1c9a0dd647076ef5d"
+  },
+  {
+    "condition": "Opisthorchiasis",
+    "specialty": "Infectious diseases",
+    "_id": "53f0b5a7c9a0dd175ebc045c"
+  },
+  {
+    "condition": "Orf Virus Disease",
+    "specialty": "Infectious diseases",
+    "_id": "53db930bc9a0ddf50ee09db3"
+  },
+  {
+    "condition": "Paragonimiasis",
+    "specialty": "Infectious diseases",
+    "_id": "53f0315dc9a0dd175ea210a6"
+  },
+  {
+    "condition": "Plasmodium Falciparum Malaria",
+    "specialty": "Infectious diseases",
+    "_id": "546c1f925d25ab43118b4954"
+  },
+  {
+    "condition": "Pseudocowpox",
+    "specialty": "Infectious diseases",
+    "_id": "53de4d55c9a0dd1d0e9f9b71"
+  },
+  {
+    "condition": "Pulmonary Aspergillosis",
+    "specialty": "Infectious diseases",
+    "_id": "53d079eec9a0dd1e0e8fee30"
+  },
+  {
+    "condition": "Pulmonary Tuberculosis",
+    "specialty": "Infectious diseases",
+    "_id": "5406bb53c9a0dd8c3f463bce"
+  },
+  {
+    "condition": "Rabies",
+    "specialty": "Infectious diseases",
+    "_id": "532919ba7f202d0e78000014"
+  },
+  {
+    "condition": "Rotaviral Enteritis",
+    "specialty": "Infectious diseases",
+    "_id": "53ba7d35c9a0dd4a5629d9fb"
+  },
+  {
+    "condition": "Rubella",
+    "specialty": "Infectious diseases",
+    "_id": "53d9cfb7c9a0dd1d0eb15659"
+  },
+  {
+    "condition": "Salmonella",
+    "specialty": "Infectious diseases",
+    "_id": "53b8bda5c9a0dd6470f1ad2a"
+  },
+  {
+    "condition": "Scarlet Fever",
+    "specialty": "Infectious diseases",
+    "_id": "53fc1222c9a0dd1813c62657"
+  },
+  {
+    "condition": "Shigellosis",
+    "specialty": "Infectious diseases",
+    "_id": "5360bd43c9a0dd394264605d"
+  },
+  {
+    "condition": "Syphilis",
+    "specialty": "Infectious diseases",
+    "_id": "53c173c3c9a0ddcd566eef4c"
+  },
+  {
+    "condition": "Taenia Saginata Taeniasis / Beef Tapeworm Infection",
+    "specialty": "Infectious diseases",
+    "_id": "53d727e2c9a0dd1e0e8a9346"
+  },
+  {
+    "condition": "Thelaziasis",
+    "specialty": "Infectious diseases",
+    "_id": "53f6fc87c9a0dd175e0225df"
+  },
+  {
+    "condition": "Trichuriasis",
+    "specialty": "Infectious diseases",
+    "_id": "5355ed64c9a0ddd1035278f5"
+  },
+  {
+    "condition": "Tungiasis",
+    "specialty": "Infectious diseases",
+    "_id": "53f59ea6c9a0dd175eff1756"
+  },
+  {
+    "condition": "Typhoid Fever",
+    "specialty": "Infectious diseases",
+    "_id": "53ef75c0c9a0dd175ee99530"
+  },
+  {
+    "condition": "Varicella Zoster",
+    "specialty": "Infectious diseases",
+    "_id": "53b7939bc9a0dd0b7455193e"
+  },
+  {
+    "condition": "Visceral Larva Migrans",
+    "specialty": "Infectious diseases",
+    "_id": "53ab1d2ec9a0dd0b74eeb31a"
+  },
+  {
+    "condition": "Whooping Cough",
+    "specialty": "Infectious diseases",
+    "_id": "539efed7c9a0dd046d6c1c8a"
+  },
+  {
+    "condition": "Yellow Fever",
+    "specialty": "Infectious diseases",
+    "_id": "53b4d5bec9a0dd0b740ddb3b"
+  },
+  {
+    "condition": "Bipolar Disorder",
+    "specialty": "Mood disorders",
+    "_id": "539bbc82c9a0ddc561dc7704"
+  },
+  {
+    "condition": "Depressive Disorder",
+    "specialty": "Mood disorders",
+    "_id": "53c69e42c9a0ddcd56a599f2"
+  },
+  {
+    "condition": "Acute Kidney Injury",
+    "specialty": "Nephrology",
+    "_id": "536d0071c9a0dd8b0305edc5"
+  },
+  {
+    "condition": "Acute Kidney Injury ",
+    "specialty": "Nephrology",
+    "_id": "540bdfcac9a0dd8c3f3d9556"
+  },
+  {
+    "condition": "Chronic Kidney Disease",
+    "specialty": "Nephrology",
+    "_id": "54093e11c9a0dda64af569be"
+  },
+  {
+    "condition": "Chronic Kidney Disease In Children",
+    "specialty": "Nephrology",
+    "_id": "54159e2ec9a0dd8c3fd0a1ae"
+  },
+  {
+    "condition": "Diabetic Nephropathy",
+    "specialty": "Nephrology",
+    "_id": "5357b9b4c9a0ddd103d3c8f9"
+  },
+  {
+    "condition": "Familial Hypocalciuric Hypercalcaemia",
+    "specialty": "Nephrology",
+    "_id": "540e77a6c9a0dda64a692e35"
+  },
+  {
+    "condition": "Nephrotic Syndrome",
+    "specialty": "Nephrology",
+    "_id": "539f2e19c9a0dd4d4c831ebd"
+  },
+  {
+    "condition": "Nephrotic Syndrome",
+    "specialty": "Nephrology",
+    "_id": "53985d32c9a0dd6112fdfd64"
+  },
+  {
+    "condition": "Pyelonephritis",
+    "specialty": "Nephrology",
+    "_id": "53d46127c9a0ddf50ea64404"
+  },
+  {
+    "condition": "Urinary Tract Infection",
+    "specialty": "Nephrology",
+    "_id": "53b57e15c9a0dd0b7429bade"
+  },
+  {
+    "condition": " Drug-induced Secondary Parkinsonism",
+    "specialty": "Neurology",
+    "_id": "54102fc0c9a0dd0d2cea4bdc"
+  },
+  {
+    "condition": "Acute Disseminated Encephalitis",
+    "specialty": "Neurology",
+    "_id": "54144931c9a0dda64a4b22fb"
+  },
+  {
+    "condition": "Acute Infarction Of Spinal Cord",
+    "specialty": "Neurology",
+    "_id": "54167ffac9a0dd8c3f37344d"
+  },
+  {
+    "condition": "Acute Ischemic Stroke",
+    "specialty": "Neurology",
+    "_id": "540d4720c9a0dd8c3fee4856"
+  },
+  {
+    "condition": "Alzheimer Disease",
+    "specialty": "Neurology",
+    "_id": "54115023c9a0dd0d2c9c181e"
+  },
+  {
+    "condition": "Amaurosis Fugax",
+    "specialty": "Neurology",
+    "_id": "53c9d915c9a0dd226557ef3f"
+  },
+  {
+    "condition": "Amyloid Autonomic Neuropathy ",
+    "specialty": "Neurology",
+    "_id": "53d9b4bdc9a0dd1e0edab749"
+  },
+  {
+    "condition": "Arachnoid Cyst",
+    "specialty": "Neurology",
+    "_id": "538beeb6c9a0dd241c35c52f"
+  },
+  {
+    "condition": "Astrocytoma",
+    "specialty": "Neurology",
+    "_id": "53f556c3c9a0dd0b5e101db3"
+  },
+  {
+    "condition": "Ataxia Telangiectasia ",
+    "specialty": "Neurology",
+    "_id": "541fea46c9a0dd0d2c8b3cea"
+  },
+  {
+    "condition": "Bell Palsy",
+    "specialty": "Neurology",
+    "_id": "53674e0bc9a0dd3942ca8bb5"
+  },
+  {
+    "condition": "Benedikt Syndrome",
+    "specialty": "Neurology",
+    "_id": "543224a75d25ab492e8b45f2"
+  },
+  {
+    "condition": "Benign Childhood Epilepsy With Centrotemporal EEG Spikes",
+    "specialty": "Neurology",
+    "_id": "544f074a5d25ab44118b47eb"
+  },
+  {
+    "condition": "Benign Intracranial Hypertension",
+    "specialty": "Neurology",
+    "_id": "541beb0cc9a0dd0d2c01708c"
+  },
+  {
+    "condition": "Benign Recurrent Meningitis",
+    "specialty": "Neurology",
+    "_id": "54607ef35d25ab44118b481d"
+  },
+  {
+    "condition": "Blepharospasm",
+    "specialty": "Neurology",
+    "_id": "54130f74c9a0dda64a0b3ed7"
+  },
+  {
+    "condition": "Carotid Sinus Syncope",
+    "specialty": "Neurology",
+    "_id": "5454d32f5d25ab44118b47fa"
+  },
+  {
+    "condition": "Cauda Equina Syndrome",
+    "specialty": "Neurology",
+    "_id": "540bbf98c9a0dda64a2dcb59"
+  },
+  {
+    "condition": "Central Pontine Myelinolysis",
+    "specialty": "Neurology",
+    "_id": "54a3ee6c5d25abe1038b4615"
+  },
+  {
+    "condition": "Cerebellitis",
+    "specialty": "Neurology",
+    "_id": "54296b065d25ab44118b4584"
+  },
+  {
+    "condition": "Cerebral Oedema",
+    "specialty": "Neurology",
+    "_id": "53e9bcb9c9a0ddf711848593"
+  },
+  {
+    "condition": "Cerebral Palsy",
+    "specialty": "Neurology",
+    "_id": "5401b532c9a0dda64ae5a9d3"
+  },
+  {
+    "condition": "Charcot-Marie-Tooth Disease",
+    "specialty": "Neurology",
+    "_id": "53e1d1d3c9a0ddf50ef058b9"
+  },
+  {
+    "condition": "Charcot-Marie-Tooth Disease In Children",
+    "specialty": "Neurology",
+    "_id": "539b11cfc9a0dd594d15b66b"
+  },
+  {
+    "condition": "Chronic Meningitis",
+    "specialty": "Neurology",
+    "_id": "53e7a4c3c9a0ddf50ef63dd3"
+  },
+  {
+    "condition": "Claude Syndrome",
+    "specialty": "Neurology",
+    "_id": "542e0dd25d25ab44118b467c"
+  },
+  {
+    "condition": "Cluster Headache Syndrome",
+    "specialty": "Neurology",
+    "_id": "540ff987c9a0dda64ad29584"
+  },
+  {
+    "condition": "Diabetic Amyotrophy",
+    "specialty": "Neurology",
+    "_id": "54213a2bc9a0dda51cbeb39e"
+  },
+  {
+    "condition": "Diabetic Arthropathy ",
+    "specialty": "Neurology",
+    "_id": "53d9d906c9a0dd1e0e494453"
+  },
+  {
+    "condition": "Diabetic Autonomic Neuropathy ",
+    "specialty": "Neurology",
+    "_id": "5371a931c9a0dd8a03ce598f"
+  },
+  {
+    "condition": "Diabetic Neuropathy",
+    "specialty": "Neurology",
+    "_id": "5373bd74c9a0dd8a03e9123f"
+  },
+  {
+    "condition": "Disorder Of 12th Cranial Nerve",
+    "specialty": "Neurology",
+    "_id": "5419badcc9a0dd0d2c868040"
+  },
+  {
+    "condition": "Disorder Of 1st Cranial Nerve",
+    "specialty": "Neurology",
+    "_id": "54571cdc5d25ab492e8b474f"
+  },
+  {
+    "condition": "Distal Spinal Muscular Atrophy",
+    "specialty": "Neurology",
+    "_id": "5447e2fd5d25ab492e8b4716"
+  },
+  {
+    "condition": "Dystrophia Myotonica",
+    "specialty": "Neurology",
+    "_id": "53e1211ac9a0dd1d0e122e7e"
+  },
+  {
+    "condition": "Encephalitis",
+    "specialty": "Neurology",
+    "_id": "53eb437ac9a0ddf50eabfb70"
+  },
+  {
+    "condition": "Essential Tremor",
+    "specialty": "Neurology",
+    "_id": "5373a15dc9a0dd8a036adfee"
+  },
+  {
+    "condition": "Glossopharyngeal Neuralgia",
+    "specialty": "Neurology",
+    "_id": "5454fcab5d25ab492e8b4742"
+  },
+  {
+    "condition": "Guillain-Barré Syndrome",
+    "specialty": "Neurology",
+    "_id": "538ed412c9a0dd241c95bfb0"
+  },
+  {
+    "condition": "Haemophilus Meningitis",
+    "specialty": "Neurology",
+    "_id": "543a8aca5d25ab492e8b466b"
+  },
+  {
+    "condition": "Hemorrhagic Stroke",
+    "specialty": "Neurology",
+    "_id": "542272cbc9a0dda51ccd64e1"
+  },
+  {
+    "condition": "Hereditary And Sensory Motor Neuropathy",
+    "specialty": "Neurology",
+    "_id": "541f8b89c9a0dd0762f4b52c"
+  },
+  {
+    "condition": "Hereditary Spastic Paraplegia",
+    "specialty": "Neurology",
+    "_id": "54226ef0c9a0dd0d2c4c5991"
+  },
+  {
+    "condition": "Horner Syndrome",
+    "specialty": "Neurology",
+    "_id": "537f7da2c9a0dda01ca831a9"
+  },
+  {
+    "condition": "Huntington's Chorea",
+    "specialty": "Neurology",
+    "_id": "54264297c9a0dda51c0f3f19"
+  },
+  {
+    "condition": "Hyperkalaemic Periodic Paralysis ",
+    "specialty": "Neurology",
+    "_id": "541598b6c9a0dd0d2ccf8c04"
+  },
+  {
+    "condition": "Hypokalaemic Periodic Paralysis",
+    "specialty": "Neurology",
+    "_id": "54138ff1c9a0dd0d2c87f773"
+  },
+  {
+    "condition": "Ischemic Stroke",
+    "specialty": "Neurology",
+    "_id": "541fa995c9a0dd07622d9105"
+  },
+  {
+    "condition": "Kleine-Levin Syndrome",
+    "specialty": "Neurology",
+    "_id": "542535aac9a0dd0d2c5fab46"
+  },
+  {
+    "condition": "Lambert-Eaton Syndrome",
+    "specialty": "Neurology",
+    "_id": "548ec5035d25abe2038b45a8"
+  },
+  {
+    "condition": "Lesion Of Median Nerve",
+    "specialty": "Neurology",
+    "_id": "5466e5445d25ab43118b4949"
+  },
+  {
+    "condition": "Meningitis In Children",
+    "specialty": "Neurology",
+    "_id": "53c4bd63c9a0ddb96467e5df"
+  },
+  {
+    "condition": "Meralgia Paraesthetica",
+    "specialty": "Neurology",
+    "_id": "546b7ae85d25ab43118b4951"
+  },
+  {
+    "condition": "Migraine",
+    "specialty": "Neurology",
+    "_id": "538eec2fc9a0dda01c2b27cf"
+  },
+  {
+    "condition": "Motor Neuron Disease",
+    "specialty": "Neurology",
+    "_id": "5413a1b8c9a0dd8c3f968dcb"
+  },
+  {
+    "condition": "Moyamoya Disease",
+    "specialty": "Neurology",
+    "_id": "542cc59c5d25ab492e8b4590"
+  },
+  {
+    "condition": "Multiple Sclerosis",
+    "specialty": "Neurology",
+    "_id": "540b6d13c9a0dda64a2893cd"
+  },
+  {
+    "condition": "Myasthenia Gravis",
+    "specialty": "Neurology",
+    "_id": "530d84b37f202dad63000008"
+  },
+  {
+    "condition": "Neurogenic Orthostatic Hypotension [Shy-Drager]",
+    "specialty": "Neurology",
+    "_id": "5422c884c9a0dd0d2cc35876"
+  },
+  {
+    "condition": "Normokalaemic Periodic Paralysis",
+    "specialty": "Neurology",
+    "_id": "541a8e77c9a0dd0762b6b6ff"
+  },
+  {
+    "condition": "Parkinson's Disease",
+    "specialty": "Neurology",
+    "_id": "53f07105c9a0dd0b5e6500c2"
+  },
+  {
+    "condition": "Peroneal Muscular Atrophy",
+    "specialty": "Neurology",
+    "_id": "5416b4b7c9a0dda64aafad9c"
+  },
+  {
+    "condition": "Phantom Limb Syndrome",
+    "specialty": "Neurology",
+    "_id": "5427d2d35d25ab43118b4573"
+  },
+  {
+    "condition": "Pneumococcal Meningitis",
+    "specialty": "Neurology",
+    "_id": "5445f3de5d25ab43118b48ee"
+  },
+  {
+    "condition": "Post-traumatic Hydrocephalus, Unspecified",
+    "specialty": "Neurology",
+    "_id": "5424d92fc9a0dda51c6567d8"
+  },
+  {
+    "condition": "Postzoster Neuralgia",
+    "specialty": "Neurology",
+    "_id": "53e8595ac9a0dd2108ee3236"
+  },
+  {
+    "condition": "Refsum Disease",
+    "specialty": "Neurology",
+    "_id": "54224d36c9a0dda51c5d7833"
+  },
+  {
+    "condition": "Secondary Parkinsonism",
+    "specialty": "Neurology",
+    "_id": "5418e3c3c9a0dda64a404396"
+  },
+  {
+    "condition": "Streptococcal Meningitis",
+    "specialty": "Neurology",
+    "_id": "54214619c9a0dd0d2cb361da"
+  },
+  {
+    "condition": "Syringobulbia",
+    "specialty": "Neurology",
+    "_id": "549b6b975d25abe1038b4609"
+  },
+  {
+    "condition": "Syringomyelia",
+    "specialty": "Neurology",
+    "_id": "541c5ac6c9a0dd07621fcb8c"
+  },
+  {
+    "condition": "Tension-type Headache",
+    "specialty": "Neurology",
+    "_id": "540dc81ac9a0dd0d2c06923b"
+  },
+  {
+    "condition": "Trigeminal Neuralgia",
+    "specialty": "Neurology",
+    "_id": "542e410c5d25ab492e8b45b1"
+  },
+  {
+    "condition": "Vascular Headache",
+    "specialty": "Neurology",
+    "_id": "530d89d97f202daf6300000b"
+  },
+  {
+    "condition": "Wallenberg Syndrome",
+    "specialty": "Neurology",
+    "_id": "540e63a7c9a0dda64aedea59"
+  },
+  {
+    "condition": "Weber Syndrome",
+    "specialty": "Neurology",
+    "_id": "5429368d5d25ab44118b4580"
+  },
+  {
+    "condition": "Cervical Spinal Stenosis",
+    "specialty": "Neurosurgery",
+    "_id": "5378d1d7c9a0dd8a038c9414"
+  },
+  {
+    "condition": "Hydrocephalus",
+    "specialty": "Neurosurgery",
+    "_id": "53fd4df3c9a0dd6c3f8d3d5a"
+  },
+  {
+    "condition": "Lumbar Spinal Stenosis",
+    "specialty": "Neurosurgery",
+    "_id": "538019dec9a0dda01c9c1fbe"
+  },
+  {
+    "condition": "Meningitis",
+    "specialty": "Neurosurgery",
+    "_id": "53fb0d31c9a0dd1813e5f2a6"
+  },
+  {
+    "condition": "Sub Arachnoid Hemorrhage",
+    "specialty": "Neurosurgery",
+    "_id": "544469c35d25ab43118b48bb"
+  },
+  {
+    "condition": "Sub Dural Hemotoma",
+    "specialty": "Neurosurgery",
+    "_id": "5448a6185d25ab43118b48fc"
+  },
+  {
+    "condition": "Abnormal Labor",
+    "specialty": "Obstetrics",
+    "_id": "53f37c96c9a0dd185e8a6aa9"
+  },
+  {
+    "condition": "Anemia In Pregnancy",
+    "specialty": "Obstetrics",
+    "_id": "53f175ddc9a0dd0b5e07de11"
+  },
+  {
+    "condition": "Antiphospholipid Syndrome And Pregnancy",
+    "specialty": "Obstetrics",
+    "_id": "53f209e5c9a0dd185ee354b7"
+  },
+  {
+    "condition": "Asthma In Pregnancy",
+    "specialty": "Obstetrics",
+    "_id": "53f34413c9a0dd185e1bdcab"
+  },
+  {
+    "condition": "Breech Presentation",
+    "specialty": "Obstetrics",
+    "_id": "534f68cbc9a0ddd0032ed5c1"
+  },
+  {
+    "condition": "Cervical Insufficiency",
+    "specialty": "Obstetrics",
+    "_id": "544248f75d25ab492e8b46df"
+  },
+  {
+    "condition": "Chronic Diabetes In Pregnancy",
+    "specialty": "Obstetrics",
+    "_id": "53f0d6eec9a0dd185e2c7fbe"
+  },
+  {
+    "condition": "Chronic Hypertension In Pregnancy",
+    "specialty": "Obstetrics",
+    "_id": "53f3b416c9a0dd175e47d9b1"
+  },
+  {
+    "condition": "Diagnosis Of Pregnancy",
+    "specialty": "Obstetrics",
+    "_id": "53479d94c9a0dd7059b26000"
+  },
+  {
+    "condition": "Ectopic Pregnancy",
+    "specialty": "Obstetrics",
+    "_id": "5349f36ec9a0dd6f59469504"
+  },
+  {
+    "condition": "Endometritis",
+    "specialty": "Obstetrics",
+    "_id": "540be286c9a0dd6c3f3ba6ee"
+  },
+  {
+    "condition": "Epilepsy In Pregnancy",
+    "specialty": "Obstetrics",
+    "_id": "5368fbdfc9a0ddd0038cd442"
+  },
+  {
+    "condition": "Fibroid Complicating Pregnancy ",
+    "specialty": "Obstetrics",
+    "_id": "53f9c495c9a0dde003092ec0"
+  },
+  {
+    "condition": "Genital Herpes In Pregnancy ",
+    "specialty": "Obstetrics",
+    "_id": "532ae6247f202dd329000007"
+  },
+  {
+    "condition": "Gestational Diabetes",
+    "specialty": "Obstetrics",
+    "_id": "53e5eaf7c9a0ddf50e0f4de3"
+  },
+  {
+    "condition": "HIV In Pregnancy",
+    "specialty": "Obstetrics",
+    "_id": "540041c0c9a0dda64aa115af"
+  },
+  {
+    "condition": "Hydatidiform Mole",
+    "specialty": "Obstetrics",
+    "_id": "536e4e52c9a0dd8a03b8722e"
+  },
+  {
+    "condition": "Hyperemesis Gravidarum",
+    "specialty": "Obstetrics",
+    "_id": "5336c7e27f202d0245000011"
+  },
+  {
+    "condition": "ITP In Pregnancy",
+    "specialty": "Obstetrics",
+    "_id": "53fd9762c9a0dd6c3fd867f7"
+  },
+  {
+    "condition": "Induction Of Labour",
+    "specialty": "Obstetrics",
+    "_id": "5401a081c9a0dda64a8bcb67"
+  },
+  {
+    "condition": "Instrumental Delivery",
+    "specialty": "Obstetrics",
+    "_id": "53ff0155c9a0dda64a661185"
+  },
+  {
+    "condition": "Liver Disease In Pregnancy",
+    "specialty": "Obstetrics",
+    "_id": "54005e6dc9a0dd8c3f1a13e8"
+  },
+  {
+    "condition": "Mendelson Syndrome",
+    "specialty": "Obstetrics",
+    "_id": "53fc8e31c9a0dd8c3f965671"
+  },
+  {
+    "condition": "Normal Labour",
+    "specialty": "Obstetrics",
+    "_id": "53f575f9c9a0dd175ef82707"
+  },
+  {
+    "condition": "Obstetrical Tetanus",
+    "specialty": "Obstetrics",
+    "_id": "5403568ac9a0dd6c3fb3298e"
+  },
+  {
+    "condition": "Pain Relief For Labor And Delivery",
+    "specialty": "Obstetrics",
+    "_id": "53f448aac9a0dd0b5e47777e"
+  },
+  {
+    "condition": "Placenta Previa",
+    "specialty": "Obstetrics",
+    "_id": "531dc79e7f202d8574000000"
+  },
+  {
+    "condition": "Post Term Pregnancy",
+    "specialty": "Obstetrics",
+    "_id": "53f41561c9a0dd185ec36ec1"
+  },
+  {
+    "condition": "Postpartum Hemorrhage",
+    "specialty": "Obstetrics",
+    "_id": "53d07791c9a0dd1d0ec34aa0"
+  },
+  {
+    "condition": "Pregnancy Induced Hypertension & Eclampsia",
+    "specialty": "Obstetrics",
+    "_id": "53f1bbddc9a0dd0b5e17cade"
+  },
+  {
+    "condition": "Premature Rupture Of Membranes",
+    "specialty": "Obstetrics",
+    "_id": "53f432dbc9a0dd0b5e688926"
+  },
+  {
+    "condition": "Renal Disease And Pregnancy",
+    "specialty": "Obstetrics",
+    "_id": "54000a6bc9a0dd6c3f6af3e6"
+  },
+  {
+    "condition": "SLE In Pregnancy",
+    "specialty": "Obstetrics",
+    "_id": "53fad6efc9a0dd9e03bbba38"
+  },
+  {
+    "condition": "Thrombophilias In Pregnancy",
+    "specialty": "Obstetrics",
+    "_id": "53f4e6e3c9a0dd0b5ef10978"
+  },
+  {
+    "condition": "Thyroid Disease In Pregnancy",
+    "specialty": "Obstetrics",
+    "_id": "53f180ddc9a0dd175ec3d7a2"
+  },
+  {
+    "condition": "UTI In Pregnancy",
+    "specialty": "Obstetrics",
+    "_id": "53f1c585c9a0dd175eca22ff"
+  },
+  {
+    "condition": "Uterine Rupture",
+    "specialty": "Obstetrics",
+    "_id": "53f37f0dc9a0dd0b5ebbfe9c"
+  },
+  {
+    "condition": "Vulval Varices",
+    "specialty": "Obstetrics",
+    "_id": "53f1cdd2c9a0dd185eb99281"
+  },
+  {
+    "condition": "Bronchial CA - Non Small Cell",
+    "specialty": "Oncology",
+    "_id": "5362f4d1c9a0ddd003dfc421"
+  },
+  {
+    "condition": "Bronchial CA - Small Cell",
+    "specialty": "Oncology",
+    "_id": "53666a53c9a0ddd00356db56"
+  },
+  {
+    "condition": "HIV Related Burkitt Lymphoma",
+    "specialty": "Oncology",
+    "_id": "53d25fcac9a0dd1e0e2b2166"
+  },
+  {
+    "condition": "Hepatocellular Carcinoma",
+    "specialty": "Oncology",
+    "_id": "5375ebbdc9a0dd8b0303a198"
+  },
+  {
+    "condition": "Leukemia",
+    "specialty": "Oncology",
+    "_id": "5411c3bcc9a0dd0d2cd7e02c"
+  },
+  {
+    "condition": "Lymphoma",
+    "specialty": "Oncology",
+    "_id": "5416ae52c9a0dda64a10dd27"
+  },
+  {
+    "condition": "Multiple Myeloma",
+    "specialty": "Oncology",
+    "_id": "5465bb685d25ab492e8b4786"
+  },
+  {
+    "condition": "Renal Cell Carcinoma",
+    "specialty": "Oncology",
+    "_id": "54035634c9a0dd6c3f6cb5c7"
+  },
+  {
+    "condition": "Tumour Lysis Syndrome",
+    "specialty": "Oncology",
+    "_id": "5472a80c5d25ab43118b4955"
+  },
+  {
+    "condition": "Abscess, Cellulitis, Osteomyelitis, Periostitis Of Orbit",
+    "specialty": "Opthalmology",
+    "_id": "54320bf35d25ab492e8b45e5"
+  },
+  {
+    "condition": "Acute Atopic Conjunctivitis",
+    "specialty": "Opthalmology",
+    "_id": "53f99770c9a0dd7206e7e7fb"
+  },
+  {
+    "condition": "Acute Conjunctivitis",
+    "specialty": "Opthalmology",
+    "_id": "53f6f8efc9a0dd175eb7a29d"
+  },
+  {
+    "condition": "Blepharitis",
+    "specialty": "Opthalmology",
+    "_id": "5370e352c9a0dd8b03914005"
+  },
+  {
+    "condition": "Chronic Conjunctivitis",
+    "specialty": "Opthalmology",
+    "_id": "53f86834c9a0dddf03b2f33a"
+  },
+  {
+    "condition": "Corneal Abrasion",
+    "specialty": "Opthalmology",
+    "_id": "535e6cbbc9a0ddd1034a43f7"
+  },
+  {
+    "condition": "Episcleritis",
+    "specialty": "Opthalmology",
+    "_id": "53b3854dc9a0dd64701d8cf5"
+  },
+  {
+    "condition": "Exopthalmos",
+    "specialty": "Opthalmology",
+    "_id": "53f9820dc9a0dddf0324e33e"
+  },
+  {
+    "condition": "Optic Atrophy",
+    "specialty": "Opthalmology",
+    "_id": "543b85665d25ab44118b472c"
+  },
+  {
+    "condition": "Optic Neuritis",
+    "specialty": "Opthalmology",
+    "_id": "542c20a55d25ab44118b464b"
+  },
+  {
+    "condition": "Pterygium",
+    "specialty": "Opthalmology",
+    "_id": "53841b99c9a0dd241c25c259"
+  },
+  {
+    "condition": "Scleritis",
+    "specialty": "Opthalmology",
+    "_id": "53bc819fc9a0dd0b74932a9a"
+  },
+  {
+    "condition": "Viral Conjunctivitis",
+    "specialty": "Opthalmology",
+    "_id": "53d91730c9a0ddf50e4a7212"
+  },
+  {
+    "condition": "Xanthelasma Of Eyelid",
+    "specialty": "Opthalmology",
+    "_id": "53f2c901c9a0dd0b5e278a54"
+  },
+  {
+    "condition": "Acute Osteomyelitis",
+    "specialty": "Orthopedics",
+    "_id": "53173b5b7f202d1e3b000011"
+  },
+  {
+    "condition": "Chronic Osteomyelitis",
+    "specialty": "Orthopedics",
+    "_id": "5327240d7f202d0a78000006"
+  },
+  {
+    "condition": "Colles' Fracture",
+    "specialty": "Orthopedics",
+    "_id": "543e1c9b5d25ab492e8b4696"
+  },
+  {
+    "condition": "Developmental Dysplasia Of Hip",
+    "specialty": "Orthopedics",
+    "_id": "5315cd6f7f202d3e3f000008"
+  },
+  {
+    "condition": "Fracture Neck Of Femur",
+    "specialty": "Orthopedics",
+    "_id": "533c20307f202d6f3b00000b"
+  },
+  {
+    "condition": "Osteoarthritis",
+    "specialty": "Orthopedics",
+    "_id": "5361e975c9a0dd3942f49215"
+  },
+  {
+    "condition": "Osteosarcoma",
+    "specialty": "Orthopedics",
+    "_id": "5343381fc9a0ddc82e2a8940"
+  },
+  {
+    "condition": "Paget's Disease",
+    "specialty": "Orthopedics",
+    "_id": "5348a3d6c9a0dd0031bfe632"
+  },
+  {
+    "condition": "Perthe's Disease",
+    "specialty": "Orthopedics",
+    "_id": "5326e8677f202d9079000002"
+  },
+  {
+    "condition": "Septic Arthritis",
+    "specialty": "Orthopedics",
+    "_id": "53284f327f202dd329000005"
+  },
+  {
+    "condition": "Adjustment Disorders",
+    "specialty": "Other",
+    "_id": "53c3a3aac9a0ddb9641da054"
+  },
+  {
+    "condition": "Factitious Disorders",
+    "specialty": "Other",
+    "_id": "538b48f7c9a0dd241cc741d2"
+  },
+  {
+    "condition": "Acute Mastoiditis",
+    "specialty": "Otorhinolaryngology",
+    "_id": "5443e4525d25ab43118b48b1"
+  },
+  {
+    "condition": "Acute Otitis Media",
+    "specialty": "Otorhinolaryngology",
+    "_id": "531806867f202d203b000012"
+  },
+  {
+    "condition": "Acute Suppurative Otitis Media",
+    "specialty": "Otorhinolaryngology",
+    "_id": "5453aa345d25ab492e8b4736"
+  },
+  {
+    "condition": "Cholesteatoma Of External Ear",
+    "specialty": "Otorhinolaryngology",
+    "_id": "54351a5b5d25ab43118b47f4"
+  },
+  {
+    "condition": "Cholesteatoma Of Middle Ear",
+    "specialty": "Otorhinolaryngology",
+    "_id": "543a83445d25ab44118b4728"
+  },
+  {
+    "condition": "Otitis Externa ",
+    "specialty": "Otorhinolaryngology",
+    "_id": "53b641c9c9a0dd0b74d01adb"
+  },
+  {
+    "condition": "Retropharyngeal And Parapharyngeal Abscess",
+    "specialty": "Otorhinolaryngology",
+    "_id": "53f443b4c9a0dd0b5e18af08"
+  },
+  {
+    "condition": "Cardiac Arrest In Children",
+    "specialty": "Pediatric emergencies",
+    "_id": "53df0891c9a0ddf50e2846cb"
+  },
+  {
+    "condition": "Diabetic Ketoacidosis In Children",
+    "specialty": "Pediatric emergencies",
+    "_id": "53915bf7c9a0dd8b03a2d684"
+  },
+  {
+    "condition": "Grand Mal Status Epilepticus",
+    "specialty": "Pediatric emergencies",
+    "_id": "539a6d31c9a0dd6112cd3492"
+  },
+  {
+    "condition": "Petit Mal Status Epilepticus",
+    "specialty": "Pediatric emergencies",
+    "_id": "539ae199c9a0dd5c49aa4bfb"
+  },
+  {
+    "condition": "Poisoning - Antihistamines In Children",
+    "specialty": "Pediatric emergencies",
+    "_id": "53e12c95c9a0dd1e0ebb9299"
+  },
+  {
+    "condition": "Poisoning - Cleaning Substances In Children",
+    "specialty": "Pediatric emergencies",
+    "_id": "53eae6dec9a0dd21089765da"
+  },
+  {
+    "condition": "Poisoning - Paracetamol In Children",
+    "specialty": "Pediatric emergencies",
+    "_id": "539a98e3c9a0dd5c49b8d7dd"
+  },
+  {
+    "condition": "Poisoning - Pesticides In Children",
+    "specialty": "Pediatric emergencies",
+    "_id": "53ec8000c9a0dd185ec435d8"
+  },
+  {
+    "condition": "Status Asthmaticus In Children",
+    "specialty": "Pediatric emergencies",
+    "_id": "537a1fbac9a0dd8b0385ec2d"
+  },
+  {
+    "condition": "Status Epilepticus In Children ",
+    "specialty": "Pediatric emergencies",
+    "_id": "53d8dcdac9a0dd1d0e8d192c"
+  },
+  {
+    "condition": "Congenital Hydrocele",
+    "specialty": "Pediatric surgery",
+    "_id": "53552d3bc9a0ddd103b38fcc"
+  },
+  {
+    "condition": "Duodenal Atresia",
+    "specialty": "Pediatric surgery",
+    "_id": "53f2e785c9a0dd175ec30867"
+  },
+  {
+    "condition": "Hypospadiasis",
+    "specialty": "Pediatric surgery",
+    "_id": "53f58127c9a0dd0b5e54d61f"
+  },
+  {
+    "condition": "Pyloric Stenosis",
+    "specialty": "Pediatric surgery",
+    "_id": "53e34445c9a0dd1e0e885106"
+  },
+  {
+    "condition": "Undescended Testes",
+    "specialty": "Pediatric surgery",
+    "_id": "53fad2ccc9a0dd9d03772231"
+  },
+  {
+    "condition": "Antisocial Personality Disorder",
+    "specialty": "Personality disorders (Axis II)",
+    "_id": "5390a073c9a0dd8b03c38dd5"
+  },
+  {
+    "condition": "Narcissistic Personality Disorder",
+    "specialty": "Personality disorders (Axis II)",
+    "_id": "53c686e3c9a0dd226509fddd"
+  },
+  {
+    "condition": "Obsessive Compulsive Personality Disorder",
+    "specialty": "Personality disorders (Axis II)",
+    "_id": "538da684c9a0dd8b035b1b6d"
+  },
+  {
+    "condition": "Schizoid Personality Disorder",
+    "specialty": "Personality disorders (Axis II)",
+    "_id": "538ec25bc9a0dd241c566bc4"
+  },
+  {
+    "condition": "Abscess Of Lung With Pneumonia",
+    "specialty": "Pulmonology",
+    "_id": "5395c324c9a0dd5f128d6ed4"
+  },
+  {
+    "condition": "Abscess Of Lung Without Pneumonia",
+    "specialty": "Pulmonology",
+    "_id": "539538d2c9a0dd6112320f1a"
+  },
+  {
+    "condition": "Adult Respiratory Distress Syndrome",
+    "specialty": "Pulmonology",
+    "_id": "5444c4d35d25ab44118b478e"
+  },
+  {
+    "condition": "Allergic Alveolitis ",
+    "specialty": "Pulmonology",
+    "_id": "53a8e43cc9a0dd0b749aae71"
+  },
+  {
+    "condition": "Alpha-1-antitrypsin Deficiency",
+    "specialty": "Pulmonology",
+    "_id": "5402edecc9a0dda64abff841"
+  },
+  {
+    "condition": "Asthma",
+    "specialty": "Pulmonology",
+    "_id": "5404300fc9a0dda64a4748b1"
+  },
+  {
+    "condition": "Bronchiectasis",
+    "specialty": "Pulmonology",
+    "_id": "534e5dc2c9a0ddd1037daaa7"
+  },
+  {
+    "condition": "Bronchiolitis",
+    "specialty": "Pulmonology",
+    "_id": "53129a337f202d6c41000000"
+  },
+  {
+    "condition": "Chlamydial Pneumonia",
+    "specialty": "Pulmonology",
+    "_id": "538eab6cc9a0dd241cbedaf2"
+  },
+  {
+    "condition": "Coffee-worker Lung",
+    "specialty": "Pulmonology",
+    "_id": "53a26260c9a0dd4a56021cf0"
+  },
+  {
+    "condition": "Croup",
+    "specialty": "Pulmonology",
+    "_id": "531ecd167f202d8c74000002"
+  },
+  {
+    "condition": "Epiglottitis",
+    "specialty": "Pulmonology",
+    "_id": "5313fb6c7f202d2d3b000000"
+  },
+  {
+    "condition": "Farmer Lung",
+    "specialty": "Pulmonology",
+    "_id": "53b110c7c9a0dd0b746f91ce"
+  },
+  {
+    "condition": "Fibrosing Alveolitis",
+    "specialty": "Pulmonology",
+    "_id": "537b0864c9a0dda01c2aa3ad"
+  },
+  {
+    "condition": "Nasopharyngitis",
+    "specialty": "Pulmonology",
+    "_id": "5396c833c9a0dd5e12462c28"
+  },
+  {
+    "condition": "Pneumonia",
+    "specialty": "Pulmonology",
+    "_id": "53ac3716c9a0dd6470812061"
+  },
+  {
+    "condition": "Pneumonia Due To Staphylococcus",
+    "specialty": "Pulmonology",
+    "_id": "53957ffcc9a0dd6112c5a5c8"
+  },
+  {
+    "condition": "Pneumonia Due To Streptococcus Pneumoniae",
+    "specialty": "Pulmonology",
+    "_id": "538d50ffc9a0dda01c303374"
+  },
+  {
+    "condition": "Pulmonary Eosinophilia",
+    "specialty": "Pulmonology",
+    "_id": "53ab9cc0c9a0dd0b74dd16bb"
+  },
+  {
+    "condition": "Pulmonary Oedema",
+    "specialty": "Pulmonology",
+    "_id": "53995c75c9a0dd4354737b8a"
+  },
+  {
+    "condition": "Rheumatoid Lung Disease",
+    "specialty": "Pulmonology",
+    "_id": "53f0c110c9a0dd185ea96a70"
+  },
+  {
+    "condition": "Rhinitis",
+    "specialty": "Pulmonology",
+    "_id": "53ad1530c9a0dd4a5634f1bc"
+  },
+  {
+    "condition": "Sinusitis",
+    "specialty": "Pulmonology",
+    "_id": "5380e9bec9a0dd8b03b4dcae"
+  },
+  {
+    "condition": "Tracheitis",
+    "specialty": "Pulmonology",
+    "_id": "535e54bcc9a0ddd003f38864"
+  },
+  {
+    "condition": "Adhesive Capsulitis",
+    "specialty": "Rheumatology",
+    "_id": "535f5fffc9a0dd394219eff9"
+  },
+  {
+    "condition": "Ankylosing Spondylitis",
+    "specialty": "Rheumatology",
+    "_id": "5337fd277f202da80a000000"
+  },
+  {
+    "condition": "Biciptial Tendinitis",
+    "specialty": "Rheumatology",
+    "_id": "533ca58ac9a0dd9417f40c12"
+  },
+  {
+    "condition": "Dermatomyositis",
+    "specialty": "Rheumatology",
+    "_id": "54859e6c5d25abe1038b45a5"
+  },
+  {
+    "condition": "Golfer's Elbow",
+    "specialty": "Rheumatology",
+    "_id": "530e94be7f202d1525000009"
+  },
+  {
+    "condition": "Gouty Arthritis",
+    "specialty": "Rheumatology",
+    "_id": "5371ddc8c9a0dd8b03c3bb8b"
+  },
+  {
+    "condition": "Pseudogout",
+    "specialty": "Rheumatology",
+    "_id": "5374a55cc9a0dd8b035ff363"
+  },
+  {
+    "condition": "Rheumatoid Arthritis",
+    "specialty": "Rheumatology",
+    "_id": "53c5f4fdc9a0ddb96491372b"
+  },
+  {
+    "condition": "Supraspinatus Tendonitis",
+    "specialty": "Rheumatology",
+    "_id": "531140057f202d0f2b000000"
+  },
+  {
+    "condition": "Systemic Lupus Erythematosus",
+    "specialty": "Rheumatology",
+    "_id": "543f1bcd5d25ab43118b4872"
+  },
+  {
+    "condition": "Systemic Lupus Erythematosus In Children ",
+    "specialty": "Rheumatology",
+    "_id": "54452dc95d25ab43118b48dc"
+  },
+  {
+    "condition": "Tennis Elbow",
+    "specialty": "Rheumatology",
+    "_id": "531b59517f202dcf18000002"
+  },
+  {
+    "condition": "Delusional Disorder",
+    "specialty": "Schizophrenia & other psychotic disorders",
+    "_id": "538ebf73c9a0dd8b03fc744a"
+  },
+  {
+    "condition": "Adrenal Pseudohermaphroditism",
+    "specialty": "Sexual and Reproductive Health",
+    "_id": "53d226b6c9a0dd1e0e82b041"
+  },
+  {
+    "condition": "Amenorrhea",
+    "specialty": "Sexual and Reproductive Health",
+    "_id": "5347628dc9a0dd7059d69347"
+  },
+  {
+    "condition": "Anovulation",
+    "specialty": "Sexual and Reproductive Health",
+    "_id": "53f561cdc9a0dd175e25e70c"
+  },
+  {
+    "condition": "Assisted Reproduction Technology",
+    "specialty": "Sexual and Reproductive Health",
+    "_id": "54035b8ac9a0dd8c3fb45c46"
+  },
+  {
+    "condition": "Bacterial Vaginosis",
+    "specialty": "Sexual and Reproductive Health",
+    "_id": "531eb1197f202d8b74000000"
+  },
+  {
+    "condition": "Candidiasis Of Vulva And Vagina",
+    "specialty": "Sexual and Reproductive Health",
+    "_id": "533faed2c9a0ddc92e1de1b4"
+  },
+  {
+    "condition": "Cervicitis",
+    "specialty": "Sexual and Reproductive Health",
+    "_id": "5331a0c47f202df67300000c"
+  },
+  {
+    "condition": "Chlamydial Genitourinary Infections",
+    "specialty": "Sexual and Reproductive Health",
+    "_id": "53345ea57f202d6444000013"
+  },
+  {
+    "condition": "Hirsuitism",
+    "specialty": "Sexual and Reproductive Health",
+    "_id": "537cef94c9a0dd241cffd81c"
+  },
+  {
+    "condition": "Kallmann Syndrome",
+    "specialty": "Sexual and Reproductive Health",
+    "_id": "53650ac5c9a0ddd003dece65"
+  },
+  {
+    "condition": "Menopause",
+    "specialty": "Sexual and Reproductive Health",
+    "_id": "53f97e2ac9a0dd7206e24508"
+  },
+  {
+    "condition": "Pelvic Inflammatory Disease",
+    "specialty": "Sexual and Reproductive Health",
+    "_id": "534f6646c9a0ddd00305449e"
+  },
+  {
+    "condition": "Poly Cystic Ovarian Syndrome",
+    "specialty": "Sexual and Reproductive Health",
+    "_id": "53d3db83c9a0dd1d0e41a2df"
+  },
+  {
+    "condition": "Primary Ovarian Failure",
+    "specialty": "Sexual and Reproductive Health",
+    "_id": "53fb02f6c9a0ddf0104f693c"
+  },
+  {
+    "condition": "Salt-losing Congenital Adrenal Hyperplasia",
+    "specialty": "Sexual and Reproductive Health",
+    "_id": "53ff0803c9a0dd6c3fc8895e"
+  },
+  {
+    "condition": "Subfertility",
+    "specialty": "Sexual and Reproductive Health",
+    "_id": "53eda08ac9a0dd175ee126a4"
+  },
+  {
+    "condition": "Male Erectile Disorder",
+    "specialty": "Sexual and gender identity disorders",
+    "_id": "5384b236c9a0dd8b03a62a22"
+  },
+  {
+    "condition": "Premature Ejaculation",
+    "specialty": "Sexual and gender identity disorders",
+    "_id": "53c88ab6c9a0ddb964da1da5"
+  },
+  {
+    "condition": "Transvestic Fetishism",
+    "specialty": "Sexual and gender identity disorders",
+    "_id": "53cd3127c9a0ddf50e8a9987"
+  },
+  {
+    "condition": "Vaginismus",
+    "specialty": "Sexual and gender identity disorders",
+    "_id": "53784879c9a0dda01c8a1cb9"
+  },
+  {
+    "condition": "Narcolepsy",
+    "specialty": "Sleep disorders",
+    "_id": "53771a6dc9a0dda01c63a793"
+  },
+  {
+    "condition": "Primary Hypersomnia",
+    "specialty": "Sleep disorders",
+    "_id": "538afe61c9a0dd241ce2597b"
+  },
+  {
+    "condition": "Primary Insomnia",
+    "specialty": "Sleep disorders",
+    "_id": "53856680c9a0dda01c4296fc"
+  },
+  {
+    "condition": "Pain Disorder",
+    "specialty": "Somatoform disorders",
+    "_id": "53e8ce5ec9a0dd2108f681c2"
+  },
+  {
+    "condition": "Undifferentiated Somatoform Disorder",
+    "specialty": "Somatoform disorders",
+    "_id": "53b396e7c9a0dd64706c4a89"
+  },
+  {
+    "condition": "Anterior Cruciate Ligament Injury",
+    "specialty": "Sports Medicine",
+    "_id": "531414c57f202d5d40000000"
+  },
+  {
+    "condition": "Meniscal Injuries",
+    "specialty": "Sports Medicine",
+    "_id": "5318305f7f202df33b000005"
+  },
+  {
+    "condition": "Plantar Fasciitis",
+    "specialty": "Sports Medicine",
+    "_id": "5312c8e27f202da72c000000"
+  },
+  {
+    "condition": "Posterior Cruciate Ligament Injury",
+    "specialty": "Sports Medicine",
+    "_id": "535960afc9a0ddd00303b0f9"
+  },
+  {
+    "condition": "Alcohol-related Disorders",
+    "specialty": "Substance-related disorders",
+    "_id": "539ecbe4c9a0dd046d214bd5"
+  },
+  {
+    "condition": "Cocaine Related Disorders",
+    "specialty": "Substance-related disorders",
+    "_id": "5396808ac9a0dd611273e506"
+  },
+  {
+    "condition": "Abscess Of Spleen",
+    "specialty": "Trauma",
+    "_id": "53eeea45c9a0dd175eb0474e"
+  },
+  {
+    "condition": "Burns",
+    "specialty": "Trauma",
+    "_id": "53fd633bc9a0dd6c3fc30bbf"
+  },
+  {
+    "condition": "Flail Chest",
+    "specialty": "Trauma",
+    "_id": "5340cff3c9a0ddc92e4c41c0"
+  },
+  {
+    "condition": "Haemothorax",
+    "specialty": "Trauma",
+    "_id": "53ec67d3c9a0dd175eb6c482"
+  },
+  {
+    "condition": "Pneumothorax",
+    "specialty": "Trauma",
+    "_id": "531d34857f202d0775000000"
+  },
+  {
+    "condition": "Achalasia Cardia",
+    "specialty": "Upper GI",
+    "_id": "53132fdd7f202df03b000000"
+  },
+  {
+    "condition": "Adult Hypertrophic Pyloric Stenosis",
+    "specialty": "Upper GI",
+    "_id": "53dd8157c9a0dd1e0e44bd47"
+  },
+  {
+    "condition": "Barrett Esophagus",
+    "specialty": "Upper GI",
+    "_id": "53c9dc8ac9a0ddb96483ca90"
+  },
+  {
+    "condition": "Diaphragmatic Hernia",
+    "specialty": "Upper GI",
+    "_id": "53df136bc9a0ddf50e26792c"
+  },
+  {
+    "condition": "Diverticulum Of The Esophagus",
+    "specialty": "Upper GI",
+    "_id": "53e0ca19c9a0dd1d0e7546cf"
+  },
+  {
+    "condition": "Dyskinesia Of Esophagus",
+    "specialty": "Upper GI",
+    "_id": "53e753cfc9a0dd1e0e0dcbf9"
+  },
+  {
+    "condition": "Dysphagia ",
+    "specialty": "Upper GI",
+    "_id": "53cf8dbcc9a0ddf50e7f3ca3"
+  },
+  {
+    "condition": "Esophageal Obstruction",
+    "specialty": "Upper GI",
+    "_id": "53e4af39c9a0ddf50e5bd915"
+  },
+  {
+    "condition": "Esophageal Perforation",
+    "specialty": "Upper GI",
+    "_id": "53e1a4e2c9a0dd1e0e57608b"
+  },
+  {
+    "condition": "Esophageal Varices",
+    "specialty": "Upper GI",
+    "_id": "53bb8e8ec9a0dd0b74c2aa63"
+  },
+  {
+    "condition": "Gastric Carcinoma",
+    "specialty": "Upper GI",
+    "_id": "53c94313c9a0ddb96454b97f"
+  },
+  {
+    "condition": "Gastric Diverticulum",
+    "specialty": "Upper GI",
+    "_id": "53e5cafbc9a0ddf7119a0c70"
+  },
+  {
+    "condition": "Gastric Varices",
+    "specialty": "Upper GI",
+    "_id": "53d73485c9a0ddf50e1446cc"
+  },
+  {
+    "condition": "Gastritis",
+    "specialty": "Upper GI",
+    "_id": "5311738f7f202da82c000000"
+  },
+  {
+    "condition": "Gastro Esophageal Reflux Disease",
+    "specialty": "Upper GI",
+    "_id": "537c7d3fc9a0dda01c26ce38"
+  },
+  {
+    "condition": "Gastro-oesophageal Laceration-haemorrhage Syndrome",
+    "specialty": "Upper GI",
+    "_id": "53e6e0cbc9a0ddf711ea8e82"
+  },
+  {
+    "condition": "Hour Glass Stricture And Stenosis Of Stomach",
+    "specialty": "Upper GI",
+    "_id": "53ec784dc9a0dd175e7e5f10"
+  },
+  {
+    "condition": "Obstruction Of Duodenum",
+    "specialty": "Upper GI",
+    "_id": "53e9f683c9a0ddf50eb336a9"
+  },
+  {
+    "condition": "Peptic Ulcer Disease",
+    "specialty": "Upper GI",
+    "_id": "5385e67bc9a0dd8b03dd2bae"
+  },
+  {
+    "condition": "Plummer-Vinson Syndrome / Kelly-Paterson Syndrome",
+    "specialty": "Upper GI",
+    "_id": "53d5106fc9a0ddf50ea4e9bd"
+  },
+  {
+    "condition": "Polyp Of Stomach Or Duodenum",
+    "specialty": "Upper GI",
+    "_id": "53ee25e8c9a0dd185ef38dfe"
+  },
+  {
+    "condition": "Ulcer Of Esophagus",
+    "specialty": "Upper GI",
+    "_id": "53db8c83c9a0ddf50e17003c"
+  },
+  {
+    "condition": "Pelvic Organ Prolapse",
+    "specialty": "Urogynecology",
+    "_id": "53d10984c9a0dd1d0e5d52db"
+  },
+  {
+    "condition": "Vesicovaginal And Ureterovaginal Fistula",
+    "specialty": "Urogynecology",
+    "_id": "53fc067ac9a0dd82286cd00b"
+  },
+  {
+    "condition": "Bladder Carcinoma",
+    "specialty": "Urology",
+    "_id": "53eabdf5c9a0ddf711cd7def"
+  },
+  {
+    "condition": "Epididymoorchitis",
+    "specialty": "Urology",
+    "_id": "531b4db27f202dd718000001"
+  },
+  {
+    "condition": "Hydrocele",
+    "specialty": "Urology",
+    "_id": "53144be37f202d5a40000000"
+  },
+  {
+    "condition": "Inguinal Hernia",
+    "specialty": "Urology",
+    "_id": "53fc5538c9a0dd0c39267e91"
+  },
+  {
+    "condition": "Prostate Carcinoma",
+    "specialty": "Urology",
+    "_id": "53f6ea16c9a0dd175e567685"
+  },
+  {
+    "condition": "Spermatocele",
+    "specialty": "Urology",
+    "_id": "531f24ae7f202d8274000005"
+  },
+  {
+    "condition": "Testicular Tumours",
+    "specialty": "Urology",
+    "_id": "53eee70cc9a0dd185efa628c"
+  },
+  {
+    "condition": "Ureteric Colic",
+    "specialty": "Urology",
+    "_id": "53faf5fdc9a0dd9d036fc7e6"
+  },
+  {
+    "condition": "Abdominal Aortic Aneurysm",
+    "specialty": "Vascular",
+    "_id": "5312dd497f202d2e3b000000"
+  },
+  {
+    "condition": "Chronic  Peripheral Venous Insufficiency",
+    "specialty": "Vascular",
+    "_id": "53fef280c9a0dda64a9efa95"
+  },
+  {
+    "condition": "Peripheral Arterial Disease",
+    "specialty": "Vascular",
+    "_id": "542bdf7a5d25ab492e8b456e"
+  },
+  {
+    "condition": "Thromboangiitis Obliterans",
+    "specialty": "Vascular",
+    "_id": "5447c1a55d25ab43118b48f5"
+  },
+  {
+    "condition": "Varicose Veins",
+    "specialty": "Vascular",
+    "_id": "542c28ed5d25ab43118b4775"
+  }
+]

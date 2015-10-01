@@ -45,5 +45,11 @@
         android:queryHint="@string/searchview_queryHint"
         android:layout_centerInParent="true">
     </SearchView>
+    <ListView
+        android:id="@+id/list_diseases"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </ListView>
+
 
 </LinearLayout>
