@@ -4,11 +4,13 @@ import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.text.InputType;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.ListView;
 import android.widget.SearchView;
+import android.widget.TextView;
 
 import com.demo.develop.explanemadicineapp.pojo.Disease;
 import com.demo.develop.explanemadicineapp.service.Adapter;
@@ -40,17 +42,17 @@ public class MainActivity extends Activity {
 
     private TransitionSet getT() {
         ChangeBounds changeBounds = new ChangeBounds();
-        changeBounds.setDuration(800);
+        changeBounds.setDuration(600);
         Fade fadeOut = new Fade(Fade.OUT);
-        fadeOut.setDuration(400);
-//        Fade fadeIn = new Fade(Fade.IN);
-//        fadeIn.setDuration(800);
+        fadeOut.setDuration(800);
+        Fade fadeIn = new Fade(Fade.IN);
+        fadeIn.setDuration(800);
         TransitionSet set = new TransitionSet();
         set.setOrdering(TransitionSet.ORDERING_TOGETHER);
         set
                 .addTransition(fadeOut)
-                .addTransition(changeBounds);
-//                .addTransition(fadeIn);
+                .addTransition(changeBounds)
+                .addTransition(fadeIn);
         return set;
     }
 
@@ -66,6 +68,7 @@ public class MainActivity extends Activity {
         container = (ViewGroup) findViewById(R.id.container);
         searchViewButton = (SearchView) findViewById(R.id.searchView);
         listDiseases = (ListView) findViewById(R.id.list_diseases);
+        TextView searchText = (TextView) searchViewButton.findViewById(android.support.v7.appcompat.R.id.search_src_text);
     }
 
     private void setOnClickListener() {
@@ -82,9 +85,6 @@ public class MainActivity extends Activity {
                     }
                 });
             }
-
-            ;
-
         });
     }
 
