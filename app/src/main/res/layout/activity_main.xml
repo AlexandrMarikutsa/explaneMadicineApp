@@ -81,6 +81,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:iconifiedByDefault="false"
+        android:showAsAction="always|collapseActionView"
         android:background="@color/searchview_background"
         android:queryHint="@string/searchview_queryHint"
         android:layout_centerInParent="true">

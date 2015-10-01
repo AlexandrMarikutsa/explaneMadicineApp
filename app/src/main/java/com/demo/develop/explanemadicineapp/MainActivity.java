@@ -3,11 +3,9 @@ package com.demo.develop.explanemadicineapp;
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
-import android.os.ResultReceiver;
 import android.text.InputType;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.ListView;
 import android.widget.SearchView;
@@ -24,13 +22,11 @@ import com.transitionseverywhere.TransitionSet;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
 import java.util.List;
 
 public class MainActivity extends Activity {
     private ViewGroup container;
-    private SearchView goButton;
+    private SearchView searchViewButton;
     private ListView listDiseases;
 
     @Override
@@ -68,19 +64,20 @@ public class MainActivity extends Activity {
 
     private void initView() {
         container = (ViewGroup) findViewById(R.id.container);
-        goButton = (SearchView) findViewById(R.id.searchView);
+        searchViewButton = (SearchView) findViewById(R.id.searchView);
         listDiseases = (ListView) findViewById(R.id.list_diseases);
     }
 
     private void setOnClickListener() {
-        goButton.setOnClickListener(new View.OnClickListener() {
+        searchViewButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 goScene(R.layout.search_layout);
-                showKeyboard(goButton);
+                showKeyboard(searchViewButton);
                 findViewById(R.id.back_button).setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
+                        searchViewButton.clearFocus();
                         goScene(R.layout.activity_main);
                     }
                 });
