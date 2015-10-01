@@ -14,14 +14,15 @@ import java.util.List;
 
 public class DiseaseAdapter {
 
-  public static List<String> getAllDiseases(String json) {
-    final List<String> diseases = new ArrayList<String>();
+  public static List<Disease> getAllDiseases(String json) {
+    final List<Disease> diseases = new ArrayList<Disease>();
     try {
       JSONArray diseasesJSON = new JSONArray(json);
 
       for (int i = 0; i < diseasesJSON.length(); i++) {
         JSONObject diseaseJSON = diseasesJSON.getJSONObject(i);
-        diseases.add(diseaseJSON.getString("condition"));
+        Disease disease = new Disease(diseaseJSON.getString("_id"),diseaseJSON.getString("specialty"),diseaseJSON.getString("condition"));
+        diseases.add(disease);
       }
 
     } catch (JSONException e) {
