@@ -9,21 +9,20 @@
         android:minHeight="?attr/actionBarSize"
         android:background="@color/toolbar_background">
 
-    <ImageButton
-        android:id="@+id/back_button"
-        android:layout_width="@dimen/toolbar_imageButton_profile_layout_width"
-        android:layout_height="@dimen/toolbar_imageButton_profile_layout_width"
-        android:layout_marginBottom="@dimen/toolbar_imageButton_profile_layout_marginBottom"
-        android:layout_marginLeft="@dimen/toolbar_imageButton_profile_layout_marginLeft"
-        android:layout_marginRight="@dimen/toolbar_imageButton_profile_layout_marginRight"
-        android:layout_marginTop="@dimen/toolbar_imageButton_profile_layout_marginTop"
-        android:adjustViewBounds="true"
-        android:layout_gravity="left"
-        android:layout_alignParentLeft="true"
-        android:padding="@dimen/toolbar_imageButton_profile_padding"
-        android:src="@drawable/back_button"
-        android:scaleType="centerCrop"
-         />
+        <ImageButton
+            android:id="@+id/back_button"
+            android:layout_width="@dimen/toolbar_imageButton_profile_layout_width"
+            android:layout_height="@dimen/toolbar_imageButton_profile_layout_width"
+            android:layout_marginBottom="@dimen/toolbar_imageButton_profile_layout_marginBottom"
+            android:layout_marginLeft="@dimen/toolbar_imageButton_profile_layout_marginLeft"
+            android:layout_marginRight="@dimen/toolbar_imageButton_profile_layout_marginRight"
+            android:layout_marginTop="@dimen/toolbar_imageButton_profile_layout_marginTop"
+            android:adjustViewBounds="true"
+            android:layout_gravity="left"
+            android:layout_alignParentLeft="true"
+            android:padding="@dimen/toolbar_imageButton_profile_padding"
+            android:src="@drawable/back_button"
+            android:scaleType="centerCrop" />
         <TextView
             android:id="@+id/central_text"
             android:text="@string/toolbar_textView_secondView"

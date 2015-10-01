@@ -9,7 +9,7 @@ import android.widget.SearchView;
 
 import com.demo.develop.explanemadicineapp.pojo.Disease;
 import com.demo.develop.explanemadicineapp.service.Adapter;
-import com.demo.develop.explanemadicineapp.service.DiseaseAdapter;
+import com.demo.develop.explanemadicineapp.service.JSONParser;
 import com.transitionseverywhere.ChangeBounds;
 import com.transitionseverywhere.Fade;
 import com.transitionseverywhere.Scene;
@@ -37,17 +37,17 @@ public class MainActivity extends Activity {
 
     private TransitionSet getT() {
         ChangeBounds changeBounds = new ChangeBounds();
-        changeBounds.setDuration(1800);
+        changeBounds.setDuration(800);
         Fade fadeOut = new Fade(Fade.OUT);
-        fadeOut.setDuration(1800);
-        Fade fadeIn = new Fade(Fade.IN);
-        fadeIn.setDuration(1800);
+        fadeOut.setDuration(400);
+//        Fade fadeIn = new Fade(Fade.IN);
+//        fadeIn.setDuration(800);
         TransitionSet set = new TransitionSet();
         set.setOrdering(TransitionSet.ORDERING_TOGETHER);
         set
                 .addTransition(fadeOut)
-                .addTransition(changeBounds)
-                .addTransition(fadeIn);
+                .addTransition(changeBounds);
+//                .addTransition(fadeIn);
         return set;
     }
 
@@ -97,7 +97,7 @@ public class MainActivity extends Activity {
             catch (IOException ex){
                 ex.printStackTrace();
             }
-        return DiseaseAdapter.getAllDiseases(contents.toString());
+        return JSONParser.getAllDiseases(contents.toString());
     }
 
     private void fillListDiseases(int sceneLayout){

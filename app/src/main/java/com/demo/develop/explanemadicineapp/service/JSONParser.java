@@ -12,7 +12,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DiseaseAdapter {
+public class JSONParser {
 
   public static List<Disease> getAllDiseases(String json) {
     final List<Disease> diseases = new ArrayList<Disease>();
