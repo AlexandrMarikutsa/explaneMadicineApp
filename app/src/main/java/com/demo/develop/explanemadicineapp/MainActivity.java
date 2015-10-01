@@ -1,9 +1,14 @@
 package com.demo.develop.explanemadicineapp;
 
 import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
+import android.os.ResultReceiver;
+import android.text.InputType;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.ListView;
 import android.widget.SearchView;
 
@@ -19,6 +24,8 @@ import com.transitionseverywhere.TransitionSet;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 import java.util.List;
 
 public class MainActivity extends Activity {
@@ -70,16 +77,27 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 goScene(R.layout.search_layout);
+                showKeyboard(goButton);
                 findViewById(R.id.back_button).setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         goScene(R.layout.activity_main);
                     }
                 });
-            };
+            }
+
+            ;
 
         });
     }
+
+    private void showKeyboard(SearchView searchView){
+        searchView.setInputType(InputType.TYPE_CLASS_TEXT);
+        InputMethodManager mgr = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+        mgr.hideSoftInputFromWindow(searchView.getWindowToken(), 0);
+
+    }
+
     private List<Disease> getAllDiseases() throws IOException {
         StringBuilder contents = new StringBuilder();
             try {
@@ -108,6 +126,5 @@ public class MainActivity extends Activity {
             e.printStackTrace();
         }
         listDiseases.setAdapter(adapter);
-
     }
 }
