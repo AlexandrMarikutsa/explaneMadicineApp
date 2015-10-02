@@ -4,10 +4,12 @@ import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.text.InputType;
+import android.text.TextUtils;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.SearchView;
@@ -25,13 +27,17 @@ import com.transitionseverywhere.TransitionSet;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
-public class MainActivity extends Activity {
+public class MainActivity extends Activity implements
+        SearchView.OnQueryTextListener{
     private ViewGroup container;
     private SearchView searchViewButton;
     private ListView listDiseases;
     private LinearLayout searchViewUpLayer;
+    private Adapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,7 +69,11 @@ public class MainActivity extends Activity {
         initView();
         setOnClickListener();
         if(sceneLayout == R.layout.search_layout)
-            fillListDiseases(sceneLayout);
+            try {
+                fillListDiseases(adapter = new Adapter(getApplication(), getAllDiseases()));
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
     }
 
     private void initView() {
@@ -126,13 +136,27 @@ public class MainActivity extends Activity {
         return JSONParser.getAllDiseases(contents.toString());
     }
 
-    private void fillListDiseases(int sceneLayout){
-        Adapter adapter = null;
-        try {
-            adapter = new Adapter(getApplication(), getAllDiseases());
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+    private void fillListDiseases(Adapter adapter){
         listDiseases.setAdapter(adapter);
+        listDiseases.setTextFilterEnabled(false);
+        searchViewButton.setIconifiedByDefault(false);
+        searchViewButton.setOnQueryTextListener(this);
+        searchViewButton.setIconified(true);
+    }
+
+    @Override
+    public boolean onQueryTextSubmit(String query) {
+        return false;
+    }
+
+    @Override
+    public boolean onQueryTextChange(String newText) {
+        if (!TextUtils.isEmpty(newText)) {
+            adapter.filter(newText.toString());
+            listDiseases.setAdapter(adapter);
+            return false;
+        }
+
+        return false;
     }
 }
