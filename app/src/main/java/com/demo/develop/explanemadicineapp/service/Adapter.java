@@ -96,7 +96,7 @@ public class Adapter extends BaseAdapter {
         SpannableString a = new SpannableString(disease.getCondition());
         a.setSpan(
                 new StyleSpan(Typeface.BOLD),
-                disease.getCondition().indexOf(charText)-1,
+                disease.getCondition().indexOf(charText),
                 disease.getCondition().indexOf(charText) + charText.length(),
                 Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
 
