@@ -2,6 +2,11 @@ package com.demo.develop.explanemadicineapp.service;
 
 
 import android.content.Context;
+import android.graphics.Typeface;
+import android.text.Spannable;
+import android.text.SpannableString;
+import android.text.Spanned;
+import android.text.style.StyleSpan;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -21,6 +26,7 @@ public class Adapter extends BaseAdapter {
     private ArrayList<Disease> arraylist;
     private LayoutInflater layoutInflater;
     private Context context;
+    String charText;
 
     public Adapter(Context context, List<Disease> diseases) {
         this.diseases = diseases;
@@ -63,12 +69,16 @@ public class Adapter extends BaseAdapter {
             viewHolder = (ViewHolder) convertView.getTag();
         }
         Disease disease =  getItem(position);
-        viewHolder.diseaseCondition.setText(disease.getCondition());
+        if(charText != null) {
+            viewHolder.diseaseCondition.setText(makeBoldText(disease));
+        }else {
+            viewHolder.diseaseCondition.setText(disease.getCondition());
+        };
         return convertView;
     }
 
     public List<Disease> filter(String charText) {
-        charText = charText.toLowerCase(Locale.getDefault());
+        this.charText = charText.toLowerCase(Locale.getDefault());
         diseases.clear();
         if (charText.length() == 0) {
             diseases.addAll(arraylist);
@@ -81,6 +91,16 @@ public class Adapter extends BaseAdapter {
             }
         }
         return diseases;
+    }
+    public SpannableString makeBoldText(Disease disease){
+        SpannableString a = new SpannableString(disease.getCondition());
+        a.setSpan(
+                new StyleSpan(Typeface.BOLD),
+                disease.getCondition().indexOf(charText)-1,
+                disease.getCondition().indexOf(charText) + charText.length(),
+                Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+
+        return a;
     }
 
 }
