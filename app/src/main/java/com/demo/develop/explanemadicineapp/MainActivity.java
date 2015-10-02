@@ -8,6 +8,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.SearchView;
 import android.widget.TextView;
@@ -30,6 +31,7 @@ public class MainActivity extends Activity {
     private ViewGroup container;
     private SearchView searchViewButton;
     private ListView listDiseases;
+    private LinearLayout searchViewUpLayer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,24 +70,33 @@ public class MainActivity extends Activity {
         container = (ViewGroup) findViewById(R.id.container);
         searchViewButton = (SearchView) findViewById(R.id.searchView);
         listDiseases = (ListView) findViewById(R.id.list_diseases);
-        TextView searchText = (TextView) searchViewButton.findViewById(android.support.v7.appcompat.R.id.search_src_text);
+        searchViewUpLayer = (LinearLayout) findViewById(R.id.search_view_up_layer);
+//        TextView searchText = (TextView) searchViewButton.findViewById(android.support.v7.appcompat.R.id.search_src_text);
     }
 
     private void setOnClickListener() {
-        searchViewButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                goScene(R.layout.search_layout);
-                showKeyboard(searchViewButton);
-                findViewById(R.id.back_button).setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        searchViewButton.clearFocus();
-                        goScene(R.layout.activity_main);
-                    }
-                });
-            }
-        });
+        if(searchViewUpLayer != null){
+            searchViewUpLayer.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    goScene(R.layout.search_layout);
+                    findViewById(R.id.back_button).setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            searchViewButton.clearFocus();
+                            goScene(R.layout.activity_main);
+                        }
+                    });
+                }
+            });
+        }else {
+            searchViewButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    showKeyboard(searchViewButton);
+                }
+            });
+        }
     }
 
     private void showKeyboard(SearchView searchView){

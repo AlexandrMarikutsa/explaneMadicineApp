@@ -167,4 +167,15 @@
         </LinearLayout>
     </LinearLayout>
 
+    <LinearLayout
+        android:id="@+id/search_view_up_layer"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/searchView"
+        android:layout_alignBottom="@+id/searchView"
+        android:layout_alignLeft="@+id/searchView"
+        android:layout_alignRight="@+id/searchView"
+        android:clickable="true"></LinearLayout>
+
 </RelativeLayout>
