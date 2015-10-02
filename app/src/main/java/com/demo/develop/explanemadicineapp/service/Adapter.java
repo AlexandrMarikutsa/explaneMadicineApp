@@ -7,6 +7,7 @@ import android.text.Spannable;
 import android.text.SpannableString;
 import android.text.Spanned;
 import android.text.style.StyleSpan;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -93,17 +94,23 @@ public class Adapter extends BaseAdapter {
         return diseases;
     }
     public SpannableString makeBoldText(Disease disease){
-        SpannableString a = new SpannableString(disease.getCondition());
-        int startindex = disease.getCondition().indexOf(charText);
+
+        String a1 = disease.getCondition();
+        a1 = a1.toLowerCase();
+        String a2 = charText.toLowerCase();
+
+        SpannableString a = new SpannableString(a1);
+        int startindex = a1.indexOf(a2);
         if(startindex>=0) {
             a.setSpan(
                     new StyleSpan(Typeface.BOLD),
                     startindex,
                     startindex + charText.length(),
                     Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
-
+            Log.e("", "");
             return a;
         }
+        Log.e("", "");
         return null;
     }
 }
