@@ -1,11 +1,16 @@
 package com.demo.develop.explanemadicineapp;
 
 import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
+import android.os.ResultReceiver;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
+import android.view.inputmethod.EditorInfo;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
@@ -26,10 +31,12 @@ import com.transitionseverywhere.TransitionSet;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 import java.util.List;
 
 public class MainActivity extends Activity implements
-        SearchView.OnQueryTextListener{
+        SearchView.OnQueryTextListener {
     private ViewGroup container;
     private SearchView searchViewButton;
     private ListView listDiseases;
@@ -75,16 +82,44 @@ public class MainActivity extends Activity implements
         TransitionManager.go(Scene.getSceneForLayout(container, sceneLayout, this), getTransitionSet());
         initView(sceneLayout);
         setOnClickListener(sceneLayout);
-        if(sceneLayout == R.layout.search_layout)
+        if (sceneLayout == R.layout.search_layout)
             try {
                 fillListDiseases(adapter = new Adapter(getApplication(), getAllDiseases()));
+                searchViewButton.requestFocus();
+                searchViewButton.post(new Runnable() {
+                    @Override
+                    public void run() {
+                        showSoftInputUnchecked();
+                    }
+                });
             } catch (IOException e) {
                 e.printStackTrace();
             }
     }
+    private void showSoftInputUnchecked() {
+        InputMethodManager imm = (InputMethodManager)
+                getSystemService(Context.INPUT_METHOD_SERVICE);
+
+        if (imm != null) {
+            Method showSoftInputUnchecked = null;
+            try {
+                showSoftInputUnchecked = imm.getClass()
+                        .getMethod("showSoftInputUnchecked", int.class, ResultReceiver.class);
+            } catch (NoSuchMethodException e) {
+            }
+
+            if (showSoftInputUnchecked != null) {
+                try {
+                    showSoftInputUnchecked.invoke(imm, 0, null);
+                } catch (IllegalAccessException e) {
+                } catch (InvocationTargetException e) {
+                }
+            }
+        }
+    }
 
     private void initView(int layout) {
-        if (layout == R.layout.activity_main){
+        if (layout == R.layout.activity_main) {
             profile = (ImageButton) findViewById(R.id.profile);
             browseLayout = (LinearLayout) findViewById(R.id.browse_layout);
             recentLayout = (LinearLayout) findViewById(R.id.recent_layout);
@@ -94,15 +129,16 @@ public class MainActivity extends Activity implements
             numberOfNotificationsMain = (TextView) findViewById(R.id.num_of_notifications_main);
             numberOfNotificationsMain.setText(numberOfNotifications.toString());
             numberOfNotificationsFavorites.setText(numberOfNotifications.toString());
-        };
+        }
+        ;
         container = (ViewGroup) findViewById(R.id.container);
         searchViewButton = (SearchView) findViewById(R.id.searchView);
         listDiseases = (ListView) findViewById(R.id.list_diseases);
         searchViewUpLayer = (LinearLayout) findViewById(R.id.search_view_up_layer);
-     }
+    }
 
     private void setOnClickListener(int layout) {
-        if(layout == R.layout.activity_main) {
+        if (layout == R.layout.activity_main) {
             clickListener = new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -135,7 +171,7 @@ public class MainActivity extends Activity implements
             recentLayout.setOnClickListener(clickListener);
             favoritesLayout.setOnClickListener(clickListener);
         }
-        if(searchViewUpLayer != null){
+        if (searchViewUpLayer != null) {
             searchViewUpLayer.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -152,7 +188,7 @@ public class MainActivity extends Activity implements
         }
     }
 
-    private void changeNumberOfNotifications(){
+    private void changeNumberOfNotifications() {
         numberOfNotifications = 0;
         numberOfNotificationsFavorites.setText(numberOfNotifications.toString());
         numberOfNotificationsMain.setText(numberOfNotifications.toString());
@@ -160,25 +196,23 @@ public class MainActivity extends Activity implements
 
     private List<Disease> getAllDiseases() throws IOException {
         StringBuilder contents = new StringBuilder();
+        try {
+            BufferedReader input = new BufferedReader(new InputStreamReader(getAssets().open("conditions.json")));
             try {
-                BufferedReader input =  new BufferedReader(new InputStreamReader(getAssets().open("conditions.json")));
-                try {
-                    String line = null;
-                    while (( line = input.readLine()) != null) {
-                        contents.append(line);
-                    }
+                String line = null;
+                while ((line = input.readLine()) != null) {
+                    contents.append(line);
                 }
-                finally {
-                    input.close();
-                }
+            } finally {
+                input.close();
             }
-            catch (IOException ex){
-                ex.printStackTrace();
-            }
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        }
         return JSONParser.getAllDiseases(contents.toString());
     }
 
-    private void fillListDiseases(final Adapter adapter){
+    private void fillListDiseases(final Adapter adapter) {
         onQueryTextChange("");
         listDiseases.setTextFilterEnabled(false);
         searchViewButton.setIconifiedByDefault(false);
@@ -204,7 +238,7 @@ public class MainActivity extends Activity implements
             adapter.filter(newText.toString());
             listDiseases.setAdapter(adapter);
             return false;
-        }else {
+        } else {
             adapter.filter("");
             listDiseases.setAdapter(adapter);
         }
