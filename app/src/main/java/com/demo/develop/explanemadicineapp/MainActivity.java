@@ -105,6 +105,7 @@ public class MainActivity extends Activity implements
                             break;
                         case R.id.favorites_layout:
                             Log.e(TAG, "FAVORITES");
+                            break;
                         case R.id.recent_layout:
                             Log.e(TAG, "RECENT");
                             break;
