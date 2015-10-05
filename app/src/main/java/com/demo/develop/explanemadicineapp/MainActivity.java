@@ -41,10 +41,10 @@ public class MainActivity extends Activity implements
     private LinearLayout recentLayout;
     private RelativeLayout favoritesLayout;
     private View.OnClickListener clickListener;
-    private RelativeLayout notificationsLayout;
     private TextView numberOfNotificationsMain;
     private TextView numberOfNotificationsFavorites;
     private Integer numberOfNotifications = 10;
+    private ImageButton notificationsButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -88,8 +88,8 @@ public class MainActivity extends Activity implements
             profile = (ImageButton) findViewById(R.id.profile);
             browseLayout = (LinearLayout) findViewById(R.id.browse_layout);
             recentLayout = (LinearLayout) findViewById(R.id.recent_layout);
+            notificationsButton = (ImageButton) findViewById(R.id.notifications);
             favoritesLayout = (RelativeLayout) findViewById(R.id.favorites_layout);
-            notificationsLayout = (RelativeLayout) findViewById(R.id.notifications_layout);
             numberOfNotificationsFavorites = (TextView) findViewById(R.id.num_of_notifications);
             numberOfNotificationsMain = (TextView) findViewById(R.id.num_of_notifications_main);
             numberOfNotificationsMain.setText(numberOfNotifications.toString());
@@ -119,16 +119,17 @@ public class MainActivity extends Activity implements
                         case R.id.recent_layout:
                             Log.e(TAG, "RECENT");
                             break;
-                        case R.id.notifications_layout:
-                            numberOfNotifications = 0;
-                            numberOfNotificationsFavorites.setText(numberOfNotifications.toString());
-                            numberOfNotificationsMain.setText(numberOfNotifications.toString());
-                            Log.e(TAG, "change number");
+                        case R.id.notifications:
+                            changeNumberOfNotifications();
+                            break;
+                        case R.id.num_of_notifications_main:
+                            changeNumberOfNotifications();
                             break;
                     }
                 }
             };
-            notificationsLayout.setOnClickListener(clickListener);
+            notificationsButton.setOnClickListener(clickListener);
+            numberOfNotificationsMain.setOnClickListener(clickListener);
             profile.setOnClickListener(clickListener);
             browseLayout.setOnClickListener(clickListener);
             recentLayout.setOnClickListener(clickListener);
@@ -149,6 +150,12 @@ public class MainActivity extends Activity implements
                 }
             });
         }
+    }
+
+    private void changeNumberOfNotifications(){
+        numberOfNotifications = 0;
+        numberOfNotificationsFavorites.setText(numberOfNotifications.toString());
+        numberOfNotificationsMain.setText(numberOfNotifications.toString());
     }
 
     private List<Disease> getAllDiseases() throws IOException {
@@ -172,7 +179,7 @@ public class MainActivity extends Activity implements
     }
 
     private void fillListDiseases(final Adapter adapter){
-        listDiseases.setAdapter(adapter);
+        onQueryTextChange("");
         listDiseases.setTextFilterEnabled(false);
         searchViewButton.setIconifiedByDefault(false);
         searchViewButton.setOnQueryTextListener(this);
@@ -197,6 +204,9 @@ public class MainActivity extends Activity implements
             adapter.filter(newText.toString());
             listDiseases.setAdapter(adapter);
             return false;
+        }else {
+            adapter.filter("");
+            listDiseases.setAdapter(adapter);
         }
 
         return false;

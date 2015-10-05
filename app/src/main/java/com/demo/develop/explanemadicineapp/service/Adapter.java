@@ -82,9 +82,7 @@ public class Adapter extends BaseAdapter {
     public List<Disease> filter(String charText) {
         this.charText = charText.toLowerCase(Locale.getDefault());
         diseases.clear();
-        if (charText.length() == 0) {
-            diseases.addAll(arraylist);
-        } else {
+        if (charText.length() != 0) {
             for (Disease disease : arraylist) {
                 if (disease.getCondition().toLowerCase(Locale.getDefault())
                         .contains(charText)) {
@@ -115,9 +113,5 @@ public class Adapter extends BaseAdapter {
 
     public List<Disease> getDiseases() {
         return diseases;
-    }
-
-    public void setDiseases(List<Disease> diseases) {
-        this.diseases = diseases;
     }
 }
