@@ -2,10 +2,12 @@ package com.demo.develop.explanemadicineapp.service;
 
 
 import android.content.Context;
+import android.graphics.Color;
 import android.graphics.Typeface;
 import android.text.Spannable;
 import android.text.SpannableString;
 import android.text.Spanned;
+import android.text.style.ForegroundColorSpan;
 import android.text.style.StyleSpan;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -72,6 +74,7 @@ public class Adapter extends BaseAdapter {
         Disease disease =  getItem(position);
         if(charText != null) {
             viewHolder.diseaseCondition.setText(makeBoldText(disease));
+            viewHolder.diseaseCondition.setTextColor(Color.parseColor("#E3E7E8"));
         }else {
             viewHolder.diseaseCondition.setText(disease.getCondition());
         };
@@ -98,15 +101,18 @@ public class Adapter extends BaseAdapter {
         String conditionLowerCase = condition.toLowerCase();
         String chartextLowerCase = charText.toLowerCase();
 
-        SpannableString a = new SpannableString(condition);
+        SpannableString conditionChanged = new SpannableString(condition);
         int startindex = conditionLowerCase.indexOf(chartextLowerCase);
         if(startindex>=0) {
-            a.setSpan(
+            conditionChanged.setSpan(
                     new StyleSpan(Typeface.BOLD),
                     startindex,
                     startindex + charText.length(),
                     Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
-            return a;
+
+            conditionChanged.setSpan(new ForegroundColorSpan(Color.parseColor("#F8F8FF")), startindex,
+                    startindex + charText.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+            return conditionChanged;
         }
         return null;
     }
