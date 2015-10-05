@@ -1,23 +1,17 @@
 package com.demo.develop.explanemadicineapp;
 
 import android.app.Activity;
-import android.content.Context;
-import android.content.Intent;
-import android.nfc.Tag;
 import android.os.Bundle;
-import android.text.InputType;
 import android.text.TextUtils;
 import android.util.Log;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
+import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.RelativeLayout;
 import android.widget.SearchView;
-import android.widget.TextView;
 
 import com.demo.develop.explanemadicineapp.pojo.Disease;
 import com.demo.develop.explanemadicineapp.service.Adapter;
@@ -31,9 +25,7 @@ import com.transitionseverywhere.TransitionSet;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Locale;
 
 public class MainActivity extends Activity implements
         SearchView.OnQueryTextListener{
@@ -42,18 +34,23 @@ public class MainActivity extends Activity implements
     private ListView listDiseases;
     private LinearLayout searchViewUpLayer;
     private Adapter adapter;
-    private String TAG_DISEASE = "Disease";
+    private String TAG = "my_log";
+    private ImageButton profile;
+    private LinearLayout browseLayout;
+    private LinearLayout recentLayout;
+    private RelativeLayout favoritesLayout;
+    private View.OnClickListener clickListener;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        initView();
-        setOnClickListener();
+        initView(R.layout.activity_main);
+        setOnClickListener(R.layout.activity_main);
     }
 
-    private TransitionSet getT() {
+    private TransitionSet getTransitionSet() {
         ChangeBounds changeBounds = new ChangeBounds();
         changeBounds.setDuration(600);
         Fade fadeOut = new Fade(Fade.OUT);
@@ -70,9 +67,9 @@ public class MainActivity extends Activity implements
     }
 
     private void goScene(int sceneLayout) {
-        TransitionManager.go(Scene.getSceneForLayout(container, sceneLayout, this), getT());
-        initView();
-        setOnClickListener();
+        TransitionManager.go(Scene.getSceneForLayout(container, sceneLayout, this), getTransitionSet());
+        initView(sceneLayout);
+        setOnClickListener(sceneLayout);
         if(sceneLayout == R.layout.search_layout)
             try {
                 fillListDiseases(adapter = new Adapter(getApplication(), getAllDiseases()));
@@ -81,14 +78,44 @@ public class MainActivity extends Activity implements
             }
     }
 
-    private void initView() {
+    private void initView(int layout) {
+        if (layout == R.layout.activity_main){
+            profile = (ImageButton) findViewById(R.id.profile);
+            browseLayout = (LinearLayout) findViewById(R.id.browse_layout);
+            recentLayout = (LinearLayout) findViewById(R.id.recent_layout);
+            favoritesLayout = (RelativeLayout) findViewById(R.id.favorites_layout);
+        };
         container = (ViewGroup) findViewById(R.id.container);
         searchViewButton = (SearchView) findViewById(R.id.searchView);
         listDiseases = (ListView) findViewById(R.id.list_diseases);
         searchViewUpLayer = (LinearLayout) findViewById(R.id.search_view_up_layer);
-    }
+     }
 
-    private void setOnClickListener() {
+    private void setOnClickListener(int layout) {
+        if(layout == R.layout.activity_main) {
+            clickListener = new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    switch (v.getId()) {
+                        case R.id.profile:
+                            Log.e(TAG, "PROFILE");
+                            break;
+                        case R.id.browse_layout:
+                            Log.e(TAG, "BROWSE");
+                            break;
+                        case R.id.favorites_layout:
+                            Log.e(TAG, "FAVORITES");
+                        case R.id.recent_layout:
+                            Log.e(TAG, "RECENT");
+                            break;
+                    }
+                }
+            };
+            profile.setOnClickListener(clickListener);
+            browseLayout.setOnClickListener(clickListener);
+            recentLayout.setOnClickListener(clickListener);
+            favoritesLayout.setOnClickListener(clickListener);
+        }
         if(searchViewUpLayer != null){
             searchViewUpLayer.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -136,7 +163,7 @@ public class MainActivity extends Activity implements
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 adapter.getDiseases().get(+position);
-                Log.e(TAG_DISEASE, adapter.getDiseases().get(+position).getCondition());
+                Log.e(TAG, adapter.getDiseases().get(+position).getCondition());
             }
         });
     }

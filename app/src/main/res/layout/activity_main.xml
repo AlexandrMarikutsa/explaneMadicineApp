@@ -96,25 +96,27 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/lower_linearLayout_group_layout_marginTop">
         <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:orientation="vertical"
-        android:background="@drawable/lower_buttons"
-        android:clickable="true">
-        <ImageView
-            android:id="@+id/browse"
-            android:layout_width="@dimen/browse_imageView_layout_width"
-            android:layout_height="@dimen/browse_imageView_layout_height"
-            android:layout_gravity="center"
-            android:src="@drawable/browse"/>
-        <TextView
+            android:id="@+id/browse_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="@string/browse_name"/>
+            android:orientation="vertical"
+            android:background="@drawable/lower_buttons"
+            android:clickable="true">
+            <ImageView
+                android:id="@+id/browse"
+                android:layout_width="@dimen/browse_imageView_layout_width"
+                android:layout_height="@dimen/browse_imageView_layout_height"
+                android:layout_gravity="center"
+                android:src="@drawable/browse"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/browse_name"/>
         </LinearLayout>
         <RelativeLayout
+            android:id="@+id/favorites_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -148,6 +150,7 @@
                 android:layout_alignEnd="@+id/favorites_image" />
         </RelativeLayout>
        <LinearLayout
+            android:id="@+id/recent_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -155,6 +158,7 @@
             android:background="@drawable/lower_buttons"
             android:clickable="true">
             <ImageView
+                android:id="@+id/recent"
                 android:layout_width="@dimen/recent_imageView_layout_width"
                 android:layout_height="@dimen/recent_imageView_layout_heidth"
                 android:layout_gravity="center"
