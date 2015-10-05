@@ -2,13 +2,17 @@ package com.demo.develop.explanemadicineapp;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
+import android.nfc.Tag;
 import android.os.Bundle;
 import android.text.InputType;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
 import android.widget.ListView;
@@ -38,6 +42,7 @@ public class MainActivity extends Activity implements
     private ListView listDiseases;
     private LinearLayout searchViewUpLayer;
     private Adapter adapter;
+    private String TAG_DISEASE = "Disease";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -121,12 +126,19 @@ public class MainActivity extends Activity implements
         return JSONParser.getAllDiseases(contents.toString());
     }
 
-    private void fillListDiseases(Adapter adapter){
+    private void fillListDiseases(final Adapter adapter){
         listDiseases.setAdapter(adapter);
         listDiseases.setTextFilterEnabled(false);
         searchViewButton.setIconifiedByDefault(false);
         searchViewButton.setOnQueryTextListener(this);
         searchViewButton.setIconified(true);
+        listDiseases.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                adapter.getDiseases().get(+position);
+                Log.e(TAG_DISEASE, adapter.getDiseases().get(+position).getCondition());
+            }
+        });
     }
 
     @Override

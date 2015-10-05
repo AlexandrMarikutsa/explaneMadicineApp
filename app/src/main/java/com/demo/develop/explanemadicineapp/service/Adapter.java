@@ -75,6 +75,7 @@ public class Adapter extends BaseAdapter {
         }else {
             viewHolder.diseaseCondition.setText(disease.getCondition());
         };
+
         return convertView;
     }
 
@@ -110,5 +111,13 @@ public class Adapter extends BaseAdapter {
             return a;
         }
         return null;
+    }
+
+    public List<Disease> getDiseases() {
+        return diseases;
+    }
+
+    public void setDiseases(List<Disease> diseases) {
+        this.diseases = diseases;
     }
 }
