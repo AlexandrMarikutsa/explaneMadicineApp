@@ -30,7 +30,9 @@
             android:scaleType="centerCrop" />
 
         <RelativeLayout
+            android:id="@+id/notifications_layout"
             android:layout_width="wrap_content"
+            android:clickable="true"
             android:layout_height="wrap_content">
             <ImageButton
                 android:id="@+id/notifications"
@@ -60,7 +62,9 @@
                 android:layout_alignRight="@+id/notifications"
                 android:layout_alignParentRight="true"
                 android:layout_alignParentBottom="false"
-                android:layout_alignWithParentIfMissing="false" />
+                android:layout_alignWithParentIfMissing="false"
+                android:gravity="center"
+                android:textColor="#F8F8FF" />
         </RelativeLayout>
 
 
@@ -147,7 +151,9 @@
                 android:layout_alignTop="@+id/favorites_image"
                 android:background="@drawable/texview_design"
                 android:layout_alignRight="@+id/notifications_count"
-                android:layout_alignEnd="@+id/favorites_image" />
+                android:layout_alignEnd="@+id/favorites_image"
+                android:gravity="center"
+                android:textColor="#F8F8FF" />
         </RelativeLayout>
        <LinearLayout
             android:id="@+id/recent_layout"

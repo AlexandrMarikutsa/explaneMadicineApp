@@ -12,6 +12,7 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.SearchView;
+import android.widget.TextView;
 
 import com.demo.develop.explanemadicineapp.pojo.Disease;
 import com.demo.develop.explanemadicineapp.service.Adapter;
@@ -40,6 +41,10 @@ public class MainActivity extends Activity implements
     private LinearLayout recentLayout;
     private RelativeLayout favoritesLayout;
     private View.OnClickListener clickListener;
+    private RelativeLayout notificationsLayout;
+    private TextView numberOfNotificationsMain;
+    private TextView numberOfNotificationsFavorites;
+    private Integer numberOfNotifications = 10;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -84,6 +89,11 @@ public class MainActivity extends Activity implements
             browseLayout = (LinearLayout) findViewById(R.id.browse_layout);
             recentLayout = (LinearLayout) findViewById(R.id.recent_layout);
             favoritesLayout = (RelativeLayout) findViewById(R.id.favorites_layout);
+            notificationsLayout = (RelativeLayout) findViewById(R.id.notifications_layout);
+            numberOfNotificationsFavorites = (TextView) findViewById(R.id.num_of_notifications);
+            numberOfNotificationsMain = (TextView) findViewById(R.id.num_of_notifications_main);
+            numberOfNotificationsMain.setText(numberOfNotifications.toString());
+            numberOfNotificationsFavorites.setText(numberOfNotifications.toString());
         };
         container = (ViewGroup) findViewById(R.id.container);
         searchViewButton = (SearchView) findViewById(R.id.searchView);
@@ -109,9 +119,16 @@ public class MainActivity extends Activity implements
                         case R.id.recent_layout:
                             Log.e(TAG, "RECENT");
                             break;
+                        case R.id.notifications_layout:
+                            numberOfNotifications = 0;
+                            numberOfNotificationsFavorites.setText(numberOfNotifications.toString());
+                            numberOfNotificationsMain.setText(numberOfNotifications.toString());
+                            Log.e(TAG, "change number");
+                            break;
                     }
                 }
             };
+            notificationsLayout.setOnClickListener(clickListener);
             profile.setOnClickListener(clickListener);
             browseLayout.setOnClickListener(clickListener);
             recentLayout.setOnClickListener(clickListener);
