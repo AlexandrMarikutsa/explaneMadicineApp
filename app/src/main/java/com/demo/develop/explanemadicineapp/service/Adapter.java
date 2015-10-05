@@ -95,22 +95,20 @@ public class Adapter extends BaseAdapter {
     }
     public SpannableString makeBoldText(Disease disease){
 
-        String a1 = disease.getCondition();
-        a1 = a1.toLowerCase();
-        String a2 = charText.toLowerCase();
+        String condition = disease.getCondition();
+        String conditionLowerCase = condition.toLowerCase();
+        String chartextLowerCase = charText.toLowerCase();
 
-        SpannableString a = new SpannableString(a1);
-        int startindex = a1.indexOf(a2);
+        SpannableString a = new SpannableString(condition);
+        int startindex = conditionLowerCase.indexOf(chartextLowerCase);
         if(startindex>=0) {
             a.setSpan(
                     new StyleSpan(Typeface.BOLD),
                     startindex,
                     startindex + charText.length(),
                     Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
-            Log.e("", "");
             return a;
         }
-        Log.e("", "");
         return null;
     }
 }

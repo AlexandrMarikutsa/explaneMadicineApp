@@ -81,7 +81,6 @@ public class MainActivity extends Activity implements
         searchViewButton = (SearchView) findViewById(R.id.searchView);
         listDiseases = (ListView) findViewById(R.id.list_diseases);
         searchViewUpLayer = (LinearLayout) findViewById(R.id.search_view_up_layer);
-//        TextView searchText = (TextView) searchViewButton.findViewById(android.support.v7.appcompat.R.id.search_src_text);
     }
 
     private void setOnClickListener() {
@@ -99,21 +98,7 @@ public class MainActivity extends Activity implements
                     });
                 }
             });
-        }else {
-            searchViewButton.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    showKeyboard(searchViewButton);
-                }
-            });
         }
-    }
-
-    private void showKeyboard(SearchView searchView){
-        searchView.setInputType(InputType.TYPE_CLASS_TEXT);
-        InputMethodManager mgr = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
-        mgr.hideSoftInputFromWindow(searchView.getWindowToken(), 0);
-
     }
 
     private List<Disease> getAllDiseases() throws IOException {

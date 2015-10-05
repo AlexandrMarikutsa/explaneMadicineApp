@@ -39,6 +39,7 @@
         android:id="@+id/searchView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:windowSoftInputMode="stateAlwaysVisible"
         android:iconifiedByDefault="false"
         android:background="@color/searchview_background"
         android:queryHint="@string/searchview_queryHint"
