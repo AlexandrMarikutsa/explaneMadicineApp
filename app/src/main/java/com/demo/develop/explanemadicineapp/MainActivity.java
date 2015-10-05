@@ -84,7 +84,7 @@ public class MainActivity extends Activity implements
         setOnClickListener(sceneLayout);
         if (sceneLayout == R.layout.search_layout)
             try {
-                fillListDiseases(adapter = new Adapter(getApplication(), getAllDiseases()));
+                fillListDiseases(adapter = new Adapter(this, getAllDiseases()));
                 searchViewButton.requestFocus();
                 searchViewButton.post(new Runnable() {
                     @Override
