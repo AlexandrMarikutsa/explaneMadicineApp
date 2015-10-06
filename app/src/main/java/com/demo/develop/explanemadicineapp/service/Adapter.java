@@ -3,20 +3,18 @@ package com.demo.develop.explanemadicineapp.service;
 
 import android.app.Activity;
 import android.content.Context;
-import android.content.res.Resources;
-import android.graphics.Color;
 import android.graphics.Typeface;
+import android.support.v4.content.ContextCompat;
 import android.text.Spannable;
 import android.text.SpannableString;
 import android.text.Spanned;
+import android.text.TextUtils;
 import android.text.style.ForegroundColorSpan;
 import android.text.style.StyleSpan;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.demo.develop.explanemadicineapp.R;
@@ -27,33 +25,32 @@ import java.util.List;
 import java.util.Locale;
 
 public class Adapter extends BaseAdapter {
-    private List<Disease> diseases;
-    private ArrayList<Disease> arraylist;
+    private List<Disease> adapterDiseasesList;
+    private ArrayList<Disease> generalDiseasesList;
     private LayoutInflater layoutInflater;
     private Activity context;
-    String charText;
+    private String charText;
 
     public Adapter(Activity context, List<Disease> diseases) {
-        this.diseases = diseases;
+        this.adapterDiseasesList = diseases;
         this.context = context;
         layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        this.arraylist = new ArrayList<Disease>();
-        this.arraylist.addAll(diseases);
+        this.generalDiseasesList = new ArrayList<Disease>();
+        this.generalDiseasesList.addAll(diseases);
     }
 
     static class ViewHolder {
-        TextView diseaseCondition;
-        ImageView conditionNext;
+        private TextView diseaseCondition;
     }
 
     @Override
     public int getCount() {
-        return diseases.size();
+        return adapterDiseasesList.size();
     }
 
     @Override
     public Disease getItem(int position) {
-        return diseases.get(position);
+        return adapterDiseasesList.get(position);
     }
 
     @Override
@@ -64,39 +61,40 @@ public class Adapter extends BaseAdapter {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         ViewHolder viewHolder;
-        if(convertView == null){
-            convertView = layoutInflater.inflate(R.layout.disease_view,parent,false);
+        if (convertView == null) {
+            convertView = layoutInflater.inflate(R.layout.disease_view, parent, false);
             viewHolder = new ViewHolder();
             viewHolder.diseaseCondition = (TextView) convertView.findViewById(R.id.condition);
-            viewHolder.conditionNext = (ImageView) convertView.findViewById(R.id.next);
             convertView.setTag(viewHolder);
-        }else {
+        } else {
             viewHolder = (ViewHolder) convertView.getTag();
         }
-        Disease disease =  getItem(position);
-        if(charText != null) {
+        Disease disease = getItem(position);
+        if (!TextUtils.isEmpty(charText)) {
             viewHolder.diseaseCondition.setText(makeBoldText(disease));
-        }else {
+        } else {
             viewHolder.diseaseCondition.setText(disease.getCondition());
-        };
+        }
+        ;
 
         return convertView;
     }
 
     public List<Disease> filter(String charText) {
         this.charText = charText.toLowerCase(Locale.getDefault());
-        diseases.clear();
+        adapterDiseasesList.clear();
         if (charText.length() != 0) {
-            for (Disease disease : arraylist) {
+            for (Disease disease : generalDiseasesList) {
                 if (disease.getCondition().toLowerCase(Locale.getDefault())
                         .contains(charText)) {
-                    diseases.add(disease);
+                    adapterDiseasesList.add(disease);
                 }
             }
         }
-        return diseases;
+        return adapterDiseasesList;
     }
-    public SpannableString makeBoldText(Disease disease){
+
+    public SpannableString makeBoldText(Disease disease) {
 
         String condition = disease.getCondition();
         String conditionLowerCase = condition.toLowerCase();
@@ -104,22 +102,22 @@ public class Adapter extends BaseAdapter {
 
         SpannableString conditionChanged = new SpannableString(condition);
         int startindex = conditionLowerCase.indexOf(chartextLowerCase);
-        if(startindex>=0) {
+        if (startindex >= 0) {
             conditionChanged.setSpan(
                     new StyleSpan(Typeface.BOLD),
                     startindex,
                     startindex + charText.length(),
                     Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
 
-            conditionChanged.setSpan(new ForegroundColorSpan(context
-                            .getResources().getColor(R.color.searchview_bold_text)), startindex,
+            conditionChanged.setSpan(new ForegroundColorSpan(ContextCompat
+                            .getColor(context, R.color.searchview_bold_text)), startindex,
                     startindex + charText.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
             return conditionChanged;
         }
         return null;
     }
 
-    public List<Disease> getDiseases() {
-        return diseases;
+    public List<Disease> getAdapterDiseasesList() {
+        return adapterDiseasesList;
     }
 }

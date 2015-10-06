@@ -1,9 +1,8 @@
 package com.demo.develop.explanemadicineapp.service;
 
 
-import android.os.Environment;
+import android.util.Log;
 
-import com.demo.develop.explanemadicineapp.constants.DataBase;
 import com.demo.develop.explanemadicineapp.pojo.Disease;
 
 import org.json.JSONArray;
@@ -19,20 +18,21 @@ import static com.demo.develop.explanemadicineapp.constants.DataBase.SPECIALTY;
 
 public class JSONParser {
 
-  public static List<Disease> getAllDiseases(String json) {
-    final List<Disease> diseases = new ArrayList<Disease>();
-    try {
-      JSONArray diseasesJSON = new JSONArray(json);
-      int diseaseJSONLength = diseasesJSON.length();
-      for (int i = 0; i < diseaseJSONLength; i++) {
-        JSONObject diseaseJSON = diseasesJSON.getJSONObject(i);
-        Disease disease = new Disease(diseaseJSON.getString(ID),diseaseJSON.getString(SPECIALTY),diseaseJSON.getString(CONDITION));
-        diseases.add(disease);
-      }
+    public static List<Disease> getAllDiseases(String json) {
+        final List<Disease> diseases = new ArrayList<Disease>();
+        try {
+            JSONArray diseasesJSON = new JSONArray(json);
+            int diseaseJSONLength = diseasesJSON.length();
+            for (int i = 0; i < diseaseJSONLength; i++) {
+                JSONObject diseaseJSON = diseasesJSON.getJSONObject(i);
+                Disease disease = new Disease(diseaseJSON.getString(ID), diseaseJSON.getString(SPECIALTY),
+                        diseaseJSON.getString(CONDITION));
+                diseases.add(disease);
+            }
 
-    } catch (JSONException e) {
-        e.printStackTrace();
-      }
-    return diseases;
-  }
+        } catch (JSONException e) {
+            Log.e(JSONParser.class.getSimpleName(), Util.nullToEmpty(e.getMessage()));
+        }
+        return diseases;
+    }
 }

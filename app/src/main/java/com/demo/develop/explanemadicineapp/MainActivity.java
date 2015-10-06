@@ -18,11 +18,10 @@ import android.widget.SearchView;
 import android.widget.TextView;
 
 import com.demo.develop.explanemadicineapp.constants.Constants;
-import com.demo.develop.explanemadicineapp.constants.DataBase;
-import com.demo.develop.explanemadicineapp.constants.NamesOfIcons;
 import com.demo.develop.explanemadicineapp.pojo.Disease;
 import com.demo.develop.explanemadicineapp.service.Adapter;
 import com.demo.develop.explanemadicineapp.service.JSONParser;
+import com.demo.develop.explanemadicineapp.service.Util;
 import com.transitionseverywhere.ChangeBounds;
 import com.transitionseverywhere.Fade;
 import com.transitionseverywhere.Scene;
@@ -32,38 +31,39 @@ import com.transitionseverywhere.TransitionSet;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.List;
 
+import static com.demo.develop.explanemadicineapp.constants.DataBase.DATABASE_NAME;
 import static com.demo.develop.explanemadicineapp.constants.NamesOfIcons.BROWSE;
 import static com.demo.develop.explanemadicineapp.constants.NamesOfIcons.FAVORITES;
 import static com.demo.develop.explanemadicineapp.constants.NamesOfIcons.PROFILE;
 import static com.demo.develop.explanemadicineapp.constants.NamesOfIcons.RECENT;
 
-public class MainActivity extends Activity implements
-        SearchView.OnQueryTextListener {
+public class MainActivity extends Activity implements SearchView.OnQueryTextListener {
+
+    public static final String TAG = "my_log";
+
     private ViewGroup container;
     private SearchView searchViewButton;
     private ListView listDiseases;
     private LinearLayout searchViewUpLayer;
-    private Adapter adapter;
-    private String TAG = "my_log";
     private ImageButton profile;
     private LinearLayout browseLayout;
     private LinearLayout recentLayout;
     private RelativeLayout favoritesLayout;
-    private View.OnClickListener clickListener;
     private TextView numberOfNotificationsMain;
     private TextView numberOfNotificationsFavorites;
-    private Integer numberOfNotifications = Constants.NUMBER_OF_NOTIFICATIONS;
     private ImageButton notificationsButton;
+
+    private Adapter adapter;
+    private Integer numberOfNotifications = Constants.NUMBER_OF_NOTIFICATIONS;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         initView(R.layout.activity_main);
         setOnClickListener(R.layout.activity_main);
     }
@@ -88,7 +88,7 @@ public class MainActivity extends Activity implements
         TransitionManager.go(Scene.getSceneForLayout(container, sceneLayout, this), getTransitionSet());
         initView(sceneLayout);
         setOnClickListener(sceneLayout);
-        if (sceneLayout == R.layout.search_layout)
+        if (sceneLayout == R.layout.search_layout) {
             try {
                 fillListDiseases(adapter = new Adapter(this, getAllDiseases()));
                 searchViewButton.requestFocus();
@@ -99,9 +99,11 @@ public class MainActivity extends Activity implements
                     }
                 });
             } catch (IOException e) {
-                e.printStackTrace();
+                Log.e(TAG, Util.nullToEmpty(e.getMessage()));
             }
+        }
     }
+
     private void showSoftInputUnchecked() {
         InputMethodManager imm = (InputMethodManager)
                 getSystemService(Context.INPUT_METHOD_SERVICE);
@@ -112,13 +114,14 @@ public class MainActivity extends Activity implements
                 showSoftInputUnchecked = imm.getClass()
                         .getMethod("showSoftInputUnchecked", int.class, ResultReceiver.class);
             } catch (NoSuchMethodException e) {
+                Log.e(TAG, Util.nullToEmpty(e.getMessage()));
             }
 
             if (showSoftInputUnchecked != null) {
                 try {
                     showSoftInputUnchecked.invoke(imm, 0, null);
-                } catch (IllegalAccessException e) {
-                } catch (InvocationTargetException e) {
+                } catch (Exception e) {
+                    Log.e(TAG, Util.nullToEmpty(e.getMessage()));
                 }
             }
         }
@@ -145,7 +148,7 @@ public class MainActivity extends Activity implements
 
     private void setOnClickListener(int layout) {
         if (layout == R.layout.activity_main) {
-            clickListener = new View.OnClickListener() {
+            View.OnClickListener clickListener = new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     switch (v.getId()) {
@@ -203,7 +206,7 @@ public class MainActivity extends Activity implements
     private List<Disease> getAllDiseases() throws IOException {
         StringBuilder contents = new StringBuilder();
         try {
-            BufferedReader input = new BufferedReader(new InputStreamReader(getAssets().open(DataBase.NAME)));
+            BufferedReader input = new BufferedReader(new InputStreamReader(getAssets().open(DATABASE_NAME)));
             try {
                 String line = null;
                 while ((line = input.readLine()) != null) {
@@ -213,7 +216,7 @@ public class MainActivity extends Activity implements
                 input.close();
             }
         } catch (IOException ex) {
-            ex.printStackTrace();
+            Log.e(TAG, Util.nullToEmpty(ex.getMessage()));
         }
         return JSONParser.getAllDiseases(contents.toString());
     }
@@ -227,8 +230,8 @@ public class MainActivity extends Activity implements
         listDiseases.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                adapter.getDiseases().get(+position);
-                Log.e(TAG, adapter.getDiseases().get(+position).getCondition());
+                adapter.getAdapterDiseasesList().get(+position);
+                Log.e(TAG, adapter.getAdapterDiseasesList().get(+position).getCondition());
             }
         });
     }
@@ -241,7 +244,7 @@ public class MainActivity extends Activity implements
     @Override
     public boolean onQueryTextChange(String newText) {
         if (!TextUtils.isEmpty(newText)) {
-            adapter.filter(newText.toString());
+            adapter.filter(newText);
             listDiseases.setAdapter(adapter);
             return false;
         } else {
