@@ -8,8 +8,6 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.WindowManager;
-import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.ImageButton;
@@ -19,6 +17,8 @@ import android.widget.RelativeLayout;
 import android.widget.SearchView;
 import android.widget.TextView;
 
+import com.demo.develop.explanemadicineapp.constants.Constants;
+import com.demo.develop.explanemadicineapp.constants.NamesOfIcons;
 import com.demo.develop.explanemadicineapp.pojo.Disease;
 import com.demo.develop.explanemadicineapp.service.Adapter;
 import com.demo.develop.explanemadicineapp.service.JSONParser;
@@ -35,6 +35,11 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.List;
 
+import static com.demo.develop.explanemadicineapp.constants.NamesOfIcons.BROWSE;
+import static com.demo.develop.explanemadicineapp.constants.NamesOfIcons.FAVORITES;
+import static com.demo.develop.explanemadicineapp.constants.NamesOfIcons.PROFILE;
+import static com.demo.develop.explanemadicineapp.constants.NamesOfIcons.RECENT;
+
 public class MainActivity extends Activity implements
         SearchView.OnQueryTextListener {
     private ViewGroup container;
@@ -50,7 +55,7 @@ public class MainActivity extends Activity implements
     private View.OnClickListener clickListener;
     private TextView numberOfNotificationsMain;
     private TextView numberOfNotificationsFavorites;
-    private Integer numberOfNotifications = 10;
+    private Integer numberOfNotifications = Constants.NUMBER_OF_NOTIFICATIONS;
     private ImageButton notificationsButton;
 
     @Override
@@ -64,11 +69,11 @@ public class MainActivity extends Activity implements
 
     private TransitionSet getTransitionSet() {
         ChangeBounds changeBounds = new ChangeBounds();
-        changeBounds.setDuration(600);
+        changeBounds.setDuration(Constants.DURATION_FOR_BOUNDS);
         Fade fadeOut = new Fade(Fade.OUT);
-        fadeOut.setDuration(800);
+        fadeOut.setDuration(Constants.DURATION_FOR_FADE_OUT);
         Fade fadeIn = new Fade(Fade.IN);
-        fadeIn.setDuration(800);
+        fadeIn.setDuration(Constants.DURATION_FOR_FADE_IN);
         TransitionSet set = new TransitionSet();
         set.setOrdering(TransitionSet.ORDERING_TOGETHER);
         set
@@ -144,16 +149,16 @@ public class MainActivity extends Activity implements
                 public void onClick(View v) {
                     switch (v.getId()) {
                         case R.id.profile:
-                            Log.e(TAG, "PROFILE");
+                            Log.e(TAG, PROFILE);
                             break;
                         case R.id.browse_layout:
-                            Log.e(TAG, "BROWSE");
+                            Log.e(TAG, BROWSE);
                             break;
                         case R.id.favorites_layout:
-                            Log.e(TAG, "FAVORITES");
+                            Log.e(TAG, FAVORITES);
                             break;
                         case R.id.recent_layout:
-                            Log.e(TAG, "RECENT");
+                            Log.e(TAG, RECENT);
                             break;
                         case R.id.notifications:
                             changeNumberOfNotifications();

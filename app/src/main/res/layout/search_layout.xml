@@ -45,7 +45,7 @@
         android:background="@color/searchview_background"
         android:queryHint="@string/searchview_queryHint"
         android:layout_centerInParent="true"
-        android:layout_marginLeft="15dp">
+        android:layout_marginLeft="@dimen/search_view_layout_marginLeft">
     </SearchView>
     <ListView
         android:id="@+id/list_diseases"

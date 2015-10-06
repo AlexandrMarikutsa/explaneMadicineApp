@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal" android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="15dp">
+    android:padding="@dimen/disease_view_relative_layout_padding">
 
     <TextView
         android:id="@+id/condition"
@@ -14,12 +14,12 @@
         android:layout_alignParentLeft="true" />
     <ImageView
         android:id="@+id/next"
-        android:layout_width="15dp"
-        android:layout_height="15dp"
-        android:layout_marginBottom="0dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginRight="0dp"
-        android:layout_marginTop="4dp"
+        android:layout_width="@dimen/disease_view_image_view_layout_width"
+        android:layout_height="@dimen/disease_view_image_view_layout_height"
+        android:layout_marginBottom="@dimen/disease_view_image_view_layout_marginBottom"
+        android:layout_marginLeft="@dimen/disease_view_image_view_layout_marginLeft"
+        android:layout_marginRight="@dimen/disease_view_image_view_layout_marginRight"
+        android:layout_marginTop="@dimen/disease_view_image_view_layout_marginTop"
         android:src="@drawable/right"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true" />

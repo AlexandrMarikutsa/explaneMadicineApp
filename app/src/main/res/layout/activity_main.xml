@@ -65,7 +65,7 @@
                 android:layout_alignParentBottom="false"
                 android:layout_alignWithParentIfMissing="false"
                 android:gravity="center"
-                android:textColor="#F8F8FF" />
+                android:textColor="@color/num_of_notifications_main_text" />
         </RelativeLayout>
 
 
@@ -155,7 +155,7 @@
                 android:layout_alignRight="@+id/notifications_count"
                 android:layout_alignEnd="@+id/favorites_image"
                 android:gravity="center"
-                android:textColor="#F8F8FF" />
+                android:textColor="@color/num_of_notifications_text_color" />
         </RelativeLayout>
        <LinearLayout
             android:id="@+id/recent_layout"

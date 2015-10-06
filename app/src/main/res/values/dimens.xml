@@ -44,5 +44,15 @@
     <dimen name="toolbar_textView_padding_second_view">1dp</dimen>
     <dimen name="toolbar_textView_text_size_second_view">20dp</dimen>
 
+    <dimen name="disease_view_relative_layout_padding">15dp</dimen>
+    <dimen name="disease_view_image_view_layout_width">15dp</dimen>
+    <dimen name="disease_view_image_view_layout_height">15dp</dimen>
+    <dimen name="disease_view_image_view_layout_marginBottom">0dp</dimen>
+    <dimen name="disease_view_image_view_layout_marginLeft">0dp</dimen>
+    <dimen name="disease_view_image_view_layout_marginRight">0dp</dimen>
+    <dimen name="disease_view_image_view_layout_marginTop">4dp</dimen>
+
+    <dimen name="search_view_layout_marginLeft">15dp</dimen>
+
 
 </resources>
