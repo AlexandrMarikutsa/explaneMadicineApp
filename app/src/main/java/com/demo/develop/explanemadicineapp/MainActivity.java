@@ -18,6 +18,7 @@ import android.widget.SearchView;
 import android.widget.TextView;
 
 import com.demo.develop.explanemadicineapp.constants.Constants;
+import com.demo.develop.explanemadicineapp.constants.DataBase;
 import com.demo.develop.explanemadicineapp.constants.NamesOfIcons;
 import com.demo.develop.explanemadicineapp.pojo.Disease;
 import com.demo.develop.explanemadicineapp.service.Adapter;
@@ -202,7 +203,7 @@ public class MainActivity extends Activity implements
     private List<Disease> getAllDiseases() throws IOException {
         StringBuilder contents = new StringBuilder();
         try {
-            BufferedReader input = new BufferedReader(new InputStreamReader(getAssets().open("conditions.json")));
+            BufferedReader input = new BufferedReader(new InputStreamReader(getAssets().open(DataBase.NAME)));
             try {
                 String line = null;
                 while ((line = input.readLine()) != null) {
